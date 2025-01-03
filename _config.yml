@@ -78,8 +78,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
+  journals:
     title: 'Journal Articles'    
+  consortium:
+    title: 'Consortium Articles'   
   conferences:
     title: 'Conference Papers'
 
