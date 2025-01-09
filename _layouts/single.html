@@ -55,19 +55,31 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+        <!-- {% if page.citation and page.paperurl and page.slidesurl %}
+          <p><b>Recommended citation</b>: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p><b>Recommended citation</b>: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p><b>Recommended citation</b>: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          <p><b>Recommended citation</b>: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p><a href="{{ page.slidesurl }}">Download Slides</a></p>
+        {% endif %} -->
+
+        {% if page.link_publication or page.link_data or page.link_preregistration or page.paperurl %}
+          <p>
+            <b>Links</b>: 
+            {% if page.paperurl %}<a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "Download PDF" }}</a>{% endif %}
+            {% if page.link_publication %}<a href="{{ page.link_publication }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
+            {% if page.link_data %}<a href="{{ page.link_data }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].data_link_label | default: "Data and Code" }}</a>{% endif %}
+            {% if page.link_preregistration %}<a href="{{ page.link_preregistration }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].preregistration_link_label | default: "Preregistration" }}</a>{% endif %}
+          </p>
         {% endif %}
 
-        {% if page.link %}<div><a href="{{ page.link }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+        <!-- {% if page.link_publication %}<div><a href="{{ page.link_publication }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %} -->
+        <!-- {% if page.link_data %}<div><a href="{{ page.link_data }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].data_link_label | default: "Data and Code" }}</a></div>{% endif %} -->
+        <!-- {% if page.link_preregistration %}<div><a href="{{ page.link_preregistration }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].preregistration_link_label | default: "Preregistration" }}</a></div>{% endif %} -->
       </section>
 
       <footer class="page__meta">
