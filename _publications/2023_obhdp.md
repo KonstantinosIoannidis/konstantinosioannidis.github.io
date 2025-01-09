@@ -1,5 +1,6 @@
 ---
 title: "On the trajectory of discrimination: A meta-analysis and forecasting survey capturing 44 years of field experiments on gender and hiring decisions"
+authors: "Michael Schaerer, Christilene du Plessis, ... , Gender Audits Forecasting Collaboration"
 collection: publications
 category: consortium
 permalink: /publications/2023_obhdp
