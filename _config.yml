@@ -85,6 +85,13 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
+# Research Category - The following the list of research categories and their headings
+publication_category:
+  working:
+    title: 'Working papers'
+  progress:
+    title: 'Work in progress'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -226,6 +233,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  research:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -283,6 +293,15 @@ defaults:
       layout: talk
       author_profile: true
       share: false
+  # _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
 
 
 # Sass/SCSS

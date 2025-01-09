@@ -35,9 +35,16 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-            <p><b><i>Details</i></b>: {{ page.type }} course, {{ page.venue }}, {{ page.date_range }} </p>
-            {% if page.syllabus %}<p><b><i>Syllabus</i></b>: {{ page.syllabus }} </p>{% endif %}
-            {% if page.evaluation %}<p><b><i>Teaching evaluation</i></b>: {{ page.evaluation }} </p>{% endif %}
+          <p><b><i>Details</i></b>: {{ page.type }} course, {{ page.venue }}, {{ page.date_range }} </p>
+          {% if page.syllabus %}<p><b><i>Syllabus</i></b>: {{ page.syllabus }} </p>{% endif %}
+          {% if page.evaluation %}<p><b><i>Teaching evaluation</i></b>: {{ page.evaluation }} </p>{% endif %}
+        {% elsif page.collection == 'research' %}
+            {% if page.venue %}<p><b><i>Submitted at</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>{% endif %}
+            {% if page.authors %}<p><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
+            {% if page.abstract %}<p><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
+            {% if page.keywords %}<p><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
+            {% if page.jel_codes %}<p><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
+            {% if page.presented %}<p><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
           {% elsif page.collection == 'publications' %}
             <p><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
             {% if page.authors %}<p><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
