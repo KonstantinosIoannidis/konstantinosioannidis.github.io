@@ -13,4 +13,4 @@ My primary research fields are Behavioral Economics, Experimental Economics, and
 
 I obtained my PhD in Economics at <a href="https://www.creedexperiment.nl/creed/peopleindex.php" target="_blank">CREED</a> at the University of Amsterdam under the supervision of <a href="https://www.uva.nl/en/profile/o/f/t.j.s.offerman/t.j.s.offerman.html" target="_blank">Theo Offerman</a> and <a href="https://www.uva.nl/en/profile/s/l/r.sloof/r.sloof.html" target="_blank">Randolph Sloof</a> in 2024. I hold three MSc diplomas in Economics, Mathematics, and Statistics.
 
-Feel free to explore the website and get to know more about my research, check a more detailed CV, or explore some of my hobbies.
+Feel free to explore the website and get to know more about my <a href="/publications/">publications</a>, my <a href="/research/">current research</a>, check a more detailed [CV](/files/cv_ioannidis.pdf), or get to know what I <a href="/personal/">enjoy</a> doing outside of academia.

@@ -86,7 +86,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Research Category - The following the list of research categories and their headings
-publication_category:
+research_category:
   working:
     title: 'Working papers'
   progress:
@@ -236,6 +236,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  personal:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -297,6 +300,15 @@ defaults:
   - scope:
       path: ""
       type: research
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+  # personal
+  - scope:
+      path: ""
+      type: personal
     values:
       layout: single
       author_profile: true
