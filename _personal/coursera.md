@@ -10,7 +10,7 @@ permalink: /personal/coursera
 
 <p align="justify">As a final note, I highly recommend taking online courses in fields that are far from the area of your own expertise. From my personal experience, they can really broaden your horizons.</p>
 
-<p align="justify">All the courses I successfully completed during that time are below.</p>
+<p align="justify">All the 47 courses I successfully completed during that time are below (I admit I got addictively hooked!).</p>
 
 Economics & Finance
 -----
@@ -49,12 +49,12 @@ Social sciences
 * <img src="/images/coursera/rock_i.jpg" width="50" height="50"> History of Rock, Part One (University of Rochester)
 * <img src="/images/coursera/rock_ii.jpg" width="50" height="50"> History of Rock, Part Two (University of Rochester)
 * <img src="/images/coursera/magic.jpg" width="50" height="50"> Magic in the Middle Ages (University of Barcelona)
-* <img src="/images/coursera/modern_world.jpg" width="50" height="50"> The Modern World: Global History since 1760 (University of Virginia)
 * <img src="/images/coursera/philosophy.jpg" width="50" height="50"> Introduction to Philosophy (University of Edinburgh)
 * <img src="/images/coursera/psychology.jpg" width="50" height="50"> Introduction to Psychology (University of Toronto)
 * <img src="/images/coursera/conviction.jpg" width="50" height="50"> The Social Science of Wrongful Conviction (Pennsylvania State University)
 * <img src="/images/coursera/sports.jpg" width="50" height="50"> Sports and Society (Duke University)
-* <img src="/images/coursera/terrorism.jpg" width="50" height="50"> Terrorism and Counterterrorism: Comparing Theory and Practice (University of Leiden)
+* <img src="/images/coursera/terrorism.jpg" width="50" height="50"> Terrorism and Counterterrorism (University of Leiden)
+* <img src="/images/coursera/modern_world.jpg" width="50" height="50"> The Modern World: Global History since 1760 (University of Virginia)
 * <img src="/images/coursera/europe.jpg" width="50" height="50"> Understanding Europe: Why It Matters and What It Can Offer You (HEC Paris)
 * <img src="/images/coursera/video_games.jpg" width="50" height="50"> Understanding Video Games (University of Alberta)
 
@@ -71,3 +71,4 @@ Mathematics & Statistics
 * <img src="/images/coursera/questionnaire.jpg" width="50" height="50"> Questionnaire Design for Social Surveys (University of Maryland)
 * <img src="/images/coursera/fmri.jpg" width="50" height="50"> Statistical Analysis of fMRI Data (Johns Hopkins University)
 * <img src="/images/coursera/statistics.jpg" width="50" height="50"> Statistics: Making Sense of Data (University of Toronto)
+

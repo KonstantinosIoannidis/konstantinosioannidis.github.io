@@ -11,7 +11,7 @@ permalink: /personal/gaming
   <style>
     /* Container for the carousel */
     .carousel-container {
-      width: 100%;
+      width: 80%;
       max-width: 800px;
       margin: 0 auto;
       position: relative;
@@ -72,6 +72,18 @@ permalink: /personal/gaming
 <h2 align="center">Pokémon games</h2>
 <div class="carousel-container" id="carousel1">
     <div class="carousel-slides">
+        <!-- <div class="carousel-slide">
+            <img src="/images/gaming/pokemon_scarlet_paldea.jpg" alt="Pokémon Scarlet Paldea Pokédex" style="width:100%; height:auto;">
+            <div class="carousel-caption">Pokémon Let's Scarlet Paldea Pokédex</div>
+        </div> -->
+        <!-- <div class="carousel-slide">
+            <img src="/images/gaming/pokemon_scarlet_kitakami.jpg" alt="Pokémon Scarlet Kitakami Pokédex" style="width:100%; height:auto;">
+            <div class="carousel-caption">Pokémon Let's Scarlet Kitakami Pokédex</div>
+        </div> -->
+        <!-- <div class="carousel-slide">
+            <img src="/images/gaming/pokemon_scarlet_blueberry.jpg" alt="Pokémon Scarlet Blueberry Pokédex" style="width:100%; height:auto;">
+            <div class="carousel-caption">Pokémon Let's Scarlet Blueberry Pokédex</div>
+        </div> -->
         <div class="carousel-slide">
             <img src="/images/gaming/pokemon_shield_galar.jpg" alt="Pokémon Shield Galar Pokédex" style="width:100%; height:auto;">
             <div class="carousel-caption">Pokémon Shield Galar Pokédex</div>
@@ -92,6 +104,10 @@ permalink: /personal/gaming
             <img src="/images/gaming/pokemon_brilliant_diamond_national.jpg" alt="Pokémon Brilliant Diamond National Pokédex" style="width:100%; height:auto;">
             <div class="carousel-caption">Pokémon Brilliant Diamond National Pokédex</div>
         </div>
+        <!-- <div class="carousel-slide">
+            <img src="/images/gaming/pokemon_lets_go_pikachu.jpg" alt="Pokémon Let's Go Pokédex" style="width:100%; height:auto;">
+            <div class="carousel-caption">Pokémon Let's Go Pikachu Pokédex</div>
+        </div> -->
     </div>
     <span class="prev" onclick="moveSlide(-1, 'carousel1')">&#10094;</span>
     <span class="next" onclick="moveSlide(1, 'carousel1')">&#10095;</span>
@@ -107,6 +123,10 @@ permalink: /personal/gaming
         <div class="carousel-slide">
             <img src="/images/gaming/spyro.jpg" alt="Spyro Reignited Trilogy" style="width:100%; height:auto;">
             <div class="carousel-caption">Spyro Reignited Trilogy</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/gaming/super_mario_world.jpg" alt="Super Mario World" style="width:100%; height:auto;">
+            <div class="carousel-caption">Super Mario World</div>
         </div>
     </div>
     <span class="prev" onclick="moveSlide(-1, 'carousel2')">&#10094;</span>
