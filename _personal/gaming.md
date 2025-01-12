@@ -113,7 +113,7 @@ permalink: /personal/gaming
     <span class="next" onclick="moveSlide(1, 'carousel1')">&#10095;</span>
 </div>
 
-<h2 align="center">Platform games</h2>
+<h2 align="center">Platform games</h2>  
 <div class="carousel-container" id="carousel2">
     <div class="carousel-slides">
         <div class="carousel-slide">
