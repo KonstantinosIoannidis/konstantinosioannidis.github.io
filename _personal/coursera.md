@@ -10,7 +10,7 @@ permalink: /personal/coursera
 
 <p align="justify">As a final note, I highly recommend taking online courses in fields that are far from the area of your own expertise. From my personal experience, they can really broaden your horizons.</p>
 
-<p align="justify">All the 47 courses I successfully completed during that time are below (I admit I got addictively hooked!).</p>
+<p align="justify">All the courses I successfully completed during that time are below. They are 47 in total, it was addictive, admittedly I got hooked!.</p>
 
 Economics & Finance
 -----

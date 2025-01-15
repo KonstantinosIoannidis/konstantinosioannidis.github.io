@@ -15,7 +15,7 @@ permalink: /personal/road_to_phd
 
 <p align="center">
     <img src="/images/amsterdam.jpeg" alt>
-    <em>On top of the "I amsterdam" sign in front of Rijksmuseum, 01:30, July 10, 2017</em>
+    <em>On top of the "I amsterdam" sign in front of Rijksmuseum, 01:30, 10 July, 2017</em>
 </p>
 
 <p align="justify">I finished my PhD in May of 2024 after a long (honestly very long) journey. During the typical congratulations/roasting after the PhD defense, my supedrvisors provided seven conjectures of why it took me so long.</p>
@@ -31,7 +31,7 @@ permalink: /personal/road_to_phd
 
 <p align="center">
     <img src="/images/phd.jpg" alt>
-    <em>Obtaining my PhD, Aula Old Lutheran Church, University of Amsterdam, 2024</em>
+    <em>Obtaining my PhD, Aula Old Lutheran Church, University of Amsterdam, 15:30, 17 May, 2024</em>
 </p>
 
 

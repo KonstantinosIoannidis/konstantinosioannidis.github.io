@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-For a detailed CV feel free to look [here](/files/cv_ioannidis.pdf).
+For a detailed CV feel free to look <a href="/files/cv_ioannidis.pdf" target="_blank">here</a>.
 
 Education
 -----
