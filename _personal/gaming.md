@@ -85,6 +85,10 @@ permalink: /personal/gaming
             <div class="carousel-caption">Pokémon Scarlet Blueberry Pokédex</div>
         </div>
         <div class="carousel-slide">
+            <img src="/images/gaming/pokemon_arceus.jpg" alt="Pokémon Arceus Pokédex" style="width:100%; height:auto;">
+            <div class="carousel-caption">Pokémon Arceus Pokédex</div>
+        </div>
+        <div class="carousel-slide">
             <img src="/images/gaming/pokemon_shield_galar.jpg" alt="Pokémon Shield Galar Pokédex" style="width:100%; height:auto;">
             <div class="carousel-caption">Pokémon Shield Galar Pokédex</div>
         </div>
@@ -119,6 +123,18 @@ permalink: /personal/gaming
         <div class="carousel-slide">
             <img src="/images/gaming/crash_4.jpg" alt="Crash Bandicoot 4: It's About Time" style="width:100%; height:auto;">
             <div class="carousel-caption">Crash Bandicoot 4: It's About Time</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/gaming/crash_3.jpg" alt="Crash Bandicoot 3: Warped" style="width:100%; height:auto;">
+            <div class="carousel-caption">Crash Bandicoot 3: Warped</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/gaming/crash_2.jpg" alt="Crash Bandicoot 2: Cortex Strikes Back" style="width:100%; height:auto;">
+            <div class="carousel-caption">Crash Bandicoot 2: Cortex Strikes Back</div>
+        </div>
+        <div class="carousel-slide">
+            <img src="/images/gaming/crash_1.jpg" alt="Crash Bandicoot" style="width:100%; height:auto;">
+            <div class="carousel-caption">Crash Bandicoot</div>
         </div>
         <div class="carousel-slide">
             <img src="/images/gaming/spyro.jpg" alt="Spyro Reignited Trilogy" style="width:100%; height:auto;">
