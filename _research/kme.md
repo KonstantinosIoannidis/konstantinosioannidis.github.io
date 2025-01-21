@@ -19,4 +19,4 @@ stage: "Data collection in progress"
 presented: "University of Vienna Behavioral/Experimental Seminar (Vienna, 2024), 14<sup>th</sup> Society for Experimental Finance Conference (Stavanger, 2024)"
 ---
 
-<!-- ![Award photo](/images/vernon_smith_award.jpeg) -->
+![Award photo](/images/vernon_smith_award.jpeg)
