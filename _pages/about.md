@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Γεια χαρά! Welcome to my page!"
+title: "Γεια χαρά!"
 author_profile: true
 redirect_from: 
   - /about/
