@@ -12,12 +12,12 @@ author_profile: true
   <li>
     <a href="/research/habits">
         <b>Habitual communication</b></a>
-        <!-- <i>R&R at Experimental Economics</i>, <b>2024</b> -->
+        <i>R&R at Experimental Economics</i>
   </li>
   <li>
     <a href="/research/whistleblowing">
         <b>Whistleblowing and competition</b></a>
-        <!-- <i>Dissertation chapter, preparing for submission</i>, <b>2024</b>  -->
+        <i>Dissertation chapter, preparing for submission</i>
   </li>
 </ul>
 

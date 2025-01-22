@@ -1,5 +1,5 @@
 ---
-title: "Being a video game completionist &rarr; a better academic"
+title: "Being a video game completionist &rarr; a better academic?"
 collection: personal
 permalink: /personal/gaming
 ---
@@ -151,7 +151,7 @@ permalink: /personal/gaming
 
 <script>
   // Function to handle slides for any given carousel
-  function moveSlide(n, carouselId) {
+  window.moveSlide = function (n, carouselId) {
       const carousel = document.getElementById(carouselId);
       const slides = carousel.querySelectorAll(".carousel-slide");
       let slideIndex = parseInt(carousel.getAttribute("data-slide-index") || 0); // Get the current index
@@ -174,7 +174,7 @@ permalink: /personal/gaming
   }
 
   // Function to display the slide based on the index
-  function showSlide(carouselId, slideIndex) {
+  window.showSlide = function (carouselId, slideIndex) {
       const carousel = document.getElementById(carouselId);
       const slides = carousel.querySelectorAll(".carousel-slide");
 
