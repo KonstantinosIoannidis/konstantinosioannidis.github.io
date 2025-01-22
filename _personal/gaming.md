@@ -149,7 +149,7 @@ permalink: /personal/gaming
     <span class="next" data-carousel="carousel2">&#10095;</span>
 </div>
 
-<script>
+<script defer>
   // Function to move the slide
   function moveSlide(carouselId, direction) {
       const carousel = document.getElementById(carouselId);
