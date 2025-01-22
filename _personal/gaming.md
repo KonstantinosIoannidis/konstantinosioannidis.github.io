@@ -113,8 +113,8 @@ permalink: /personal/gaming
             <div class="carousel-caption">Pokémon Let's Go Pikachu Pokédex</div>
         </div>
     </div>
-    <span class="prev" onclick="moveSlide(-1, 'carousel1')">&#10094;</span>
-    <span class="next" onclick="moveSlide(1, 'carousel1')">&#10095;</span>
+    <span class="prev" data-carousel="carousel1">&#10094;</span>
+    <span class="next" data-carousel="carousel1">&#10095;</span>
 </div>
 
 <h2 align="center">Platform games</h2>  
@@ -145,52 +145,56 @@ permalink: /personal/gaming
             <div class="carousel-caption">Super Mario World</div>
         </div>
     </div>
-    <span class="prev" onclick="moveSlide(-1, 'carousel2')">&#10094;</span>
-    <span class="next" onclick="moveSlide(1, 'carousel2')">&#10095;</span>
+    <span class="prev" data-carousel="carousel2">&#10094;</span>
+    <span class="next" data-carousel="carousel2">&#10095;</span>
 </div>
 
 <script>
-  // Function to handle slides for any given carousel
-  window.moveSlide = function (n, carouselId) {
+  // Function to move the slide
+  function moveSlide(carouselId, direction) {
       const carousel = document.getElementById(carouselId);
       const slides = carousel.querySelectorAll(".carousel-slide");
-      let slideIndex = parseInt(carousel.getAttribute("data-slide-index") || 0); // Get the current index
+      let slideIndex = parseInt(carousel.getAttribute("data-slide-index") || 0);
 
-      // Update the index
-      slideIndex += n;
+      // Update index based on direction
+      slideIndex += direction;
 
-      // Ensure the slide index stays within bounds
+      // Ensure index wraps around
       if (slideIndex >= slides.length) {
-          slideIndex = 0;  // Loop back to first slide
+          slideIndex = 0;
       } else if (slideIndex < 0) {
-          slideIndex = slides.length - 1;  // Loop back to last slide
+          slideIndex = slides.length - 1;
       }
 
-      // Update the carousel's current slide index
+      // Update carousel index and display the correct slide
       carousel.setAttribute("data-slide-index", slideIndex);
-
-      // Show the corresponding slide
       showSlide(carouselId, slideIndex);
   }
 
-  // Function to display the slide based on the index
-  window.showSlide = function (carouselId, slideIndex) {
+  // Function to show the slide
+  function showSlide(carouselId, slideIndex) {
       const carousel = document.getElementById(carouselId);
       const slides = carousel.querySelectorAll(".carousel-slide");
 
-      // Hide all slides
-      slides.forEach(slide => {
-          slide.style.display = "none";
+      slides.forEach((slide, idx) => {
+          slide.style.display = idx === slideIndex ? "block" : "none";
       });
-
-      // Show the current slide
-      slides[slideIndex].style.display = "block";
   }
 
-  // Initialize the carousels
-  document.querySelectorAll(".carousel-container").forEach((carousel, index) => {
-      carousel.setAttribute("data-slide-index", 0);  // Set initial slide index to 0
-      showSlide(carousel.id, 0);  // Show first slide
+  // Initialize carousels
+  document.querySelectorAll(".carousel-container").forEach((carousel) => {
+      carousel.setAttribute("data-slide-index", 0);
+      const carouselId = carousel.id;
+      showSlide(carouselId, 0);
+  });
+
+  // Attach event listeners to navigation buttons
+  document.querySelectorAll(".prev, .next").forEach((button) => {
+      button.addEventListener("click", () => {
+          const carouselId = button.getAttribute("data-carousel");
+          const direction = button.classList.contains("prev") ? -1 : 1;
+          moveSlide(carouselId, direction);
+      });
   });
 </script>
 
