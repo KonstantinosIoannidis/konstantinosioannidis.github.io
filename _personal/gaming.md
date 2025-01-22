@@ -196,6 +196,21 @@ permalink: /personal/gaming
           moveSlide(carouselId, direction);
       });
   });
+
+  // Add debug log for event listener setup
+  document.addEventListener("DOMContentLoaded", () => {
+      console.log("DOM fully loaded and parsed.");
+
+      // Add event listeners to navigation buttons
+      document.querySelectorAll(".prev, .next").forEach((button) => {
+          button.addEventListener("click", () => {
+              const carouselId = button.getAttribute("data-carousel");
+              const direction = button.classList.contains("prev") ? -1 : 1;
+              console.log(`Button clicked: ${button.classList.contains("prev") ? "prev" : "next"}, Carousel: ${carouselId}`);
+              moveSlide(carouselId, direction);
+          });
+      });
+  });  
 </script>
 
 </body>
