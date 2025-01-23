@@ -150,6 +150,10 @@ permalink: /personal/gaming
 </div>
 
 <script>
+  console.log("Script loaded!");
+</script>
+
+<script>
   // Function to move the slide
   function moveSlide(carouselId, direction) {
       const carousel = document.getElementById(carouselId);
