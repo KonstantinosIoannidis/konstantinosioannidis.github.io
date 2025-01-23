@@ -149,7 +149,7 @@ permalink: /personal/gaming
     <span class="next" data-carousel="carousel2">&#10095;</span>
 </div>
 
-<script defer>
+<script>
   // Function to move the slide
   function moveSlide(carouselId, direction) {
       const carousel = document.getElementById(carouselId);
@@ -182,35 +182,28 @@ permalink: /personal/gaming
   }
 
   // Initialize carousels
-  document.querySelectorAll(".carousel-container").forEach((carousel) => {
-      carousel.setAttribute("data-slide-index", 0);
-      const carouselId = carousel.id;
-      showSlide(carouselId, 0);
-  });
-
-  // Attach event listeners to navigation buttons
-  document.querySelectorAll(".prev, .next").forEach((button) => {
-      button.addEventListener("click", () => {
-          const carouselId = button.getAttribute("data-carousel");
-          const direction = button.classList.contains("prev") ? -1 : 1;
-          moveSlide(carouselId, direction);
-      });
-  });
-
-  // Add debug log for event listener setup
   document.addEventListener("DOMContentLoaded", () => {
-      console.log("DOM fully loaded and parsed.");
+      document.querySelectorAll(".carousel-container").forEach((carousel) => {
+          const carouselId = carousel.id;
 
-      // Add event listeners to navigation buttons
-      document.querySelectorAll(".prev, .next").forEach((button) => {
-          button.addEventListener("click", () => {
-              const carouselId = button.getAttribute("data-carousel");
-              const direction = button.classList.contains("prev") ? -1 : 1;
-              console.log(`Button clicked: ${button.classList.contains("prev") ? "prev" : "next"}, Carousel: ${carouselId}`);
-              moveSlide(carouselId, direction);
+          // Set the initial slide index
+          carousel.setAttribute("data-slide-index", 0);
+          showSlide(carouselId, 0);
+
+          // Attach event listeners to navigation buttons
+          const prevButton = carousel.querySelector(".prev");
+          const nextButton = carousel.querySelector(".next");
+
+          prevButton.addEventListener("click", () => {
+              moveSlide(carouselId, -1);
+          });
+
+          nextButton.addEventListener("click", () => {
+              moveSlide(carouselId, 1);
           });
       });
-  });  
+  });
 </script>
+
 
 </body>
