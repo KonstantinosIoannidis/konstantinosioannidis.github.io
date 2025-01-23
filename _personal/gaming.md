@@ -182,39 +182,39 @@ permalink: /personal/gaming
   }
 
 // Initialize carousels
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("DOM fully loaded and parsed.");
+console.log("Script loaded.");  // Debugging log to ensure the script is loaded
 
-    document.querySelectorAll(".carousel-container").forEach((carousel) => {
-        const carouselId = carousel.id;
+document.querySelectorAll(".carousel-container").forEach((carousel) => {
+    const carouselId = carousel.id;
+    console.log(`Found carousel: ${carouselId}`);  // Debugging log to check carousel IDs
 
-        // Set the initial slide index
-        carousel.setAttribute("data-slide-index", 0);
-        showSlide(carouselId, 0);
+    carousel.setAttribute("data-slide-index", 0);
+    showSlide(carouselId, 0);
 
-        // Attach event listeners to navigation buttons
-        const prevButton = carousel.querySelector(".prev");
-        const nextButton = carousel.querySelector(".next");
+    const prevButton = carousel.querySelector(".prev");
+    const nextButton = carousel.querySelector(".next");
 
-        if (prevButton) {
-            prevButton.addEventListener("click", () => {
-                console.log(`Prev button clicked for ${carouselId}`);
-                moveSlide(carouselId, -1);
-            });
-        } else {
-            console.warn(`Prev button not found for carousel: ${carouselId}`);
-        }
+    if (prevButton) {
+        console.log(`Prev button found for ${carouselId}`);  // Debugging log to confirm prev button
+        prevButton.addEventListener("click", () => {
+            console.log(`Prev button clicked for ${carouselId}`);  // Debugging log when prev button is clicked
+            moveSlide(carouselId, -1);
+        });
+    } else {
+        console.warn(`Prev button not found for carousel: ${carouselId}`);  // Warning if prev button is missing
+    }
 
-        if (nextButton) {
-            nextButton.addEventListener("click", () => {
-                console.log(`Next button clicked for ${carouselId}`);
-                moveSlide(carouselId, 1);
-            });
-        } else {
-            console.warn(`Next button not found for carousel: ${carouselId}`);
-        }
-    });
+    if (nextButton) {
+        console.log(`Next button found for ${carouselId}`);  // Debugging log to confirm next button
+        nextButton.addEventListener("click", () => {
+            console.log(`Next button clicked for ${carouselId}`);  // Debugging log when next button is clicked
+            moveSlide(carouselId, 1);
+        });
+    } else {
+        console.warn(`Next button not found for carousel: ${carouselId}`);  // Warning if next button is missing
+    }
 });
+
 
 </script>
 
