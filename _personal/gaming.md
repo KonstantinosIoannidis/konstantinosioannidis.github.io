@@ -181,28 +181,41 @@ permalink: /personal/gaming
       });
   }
 
-  // Initialize carousels
-  document.addEventListener("DOMContentLoaded", () => {
-      document.querySelectorAll(".carousel-container").forEach((carousel) => {
-          const carouselId = carousel.id;
+// Initialize carousels
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded and parsed.");
 
-          // Set the initial slide index
-          carousel.setAttribute("data-slide-index", 0);
-          showSlide(carouselId, 0);
+    document.querySelectorAll(".carousel-container").forEach((carousel) => {
+        const carouselId = carousel.id;
 
-          // Attach event listeners to navigation buttons
-          const prevButton = carousel.querySelector(".prev");
-          const nextButton = carousel.querySelector(".next");
+        // Set the initial slide index
+        carousel.setAttribute("data-slide-index", 0);
+        showSlide(carouselId, 0);
 
-          prevButton.addEventListener("click", () => {
-              moveSlide(carouselId, -1);
-          });
+        // Attach event listeners to navigation buttons
+        const prevButton = carousel.querySelector(".prev");
+        const nextButton = carousel.querySelector(".next");
 
-          nextButton.addEventListener("click", () => {
-              moveSlide(carouselId, 1);
-          });
-      });
-  });
+        if (prevButton) {
+            prevButton.addEventListener("click", () => {
+                console.log(`Prev button clicked for ${carouselId}`);
+                moveSlide(carouselId, -1);
+            });
+        } else {
+            console.warn(`Prev button not found for carousel: ${carouselId}`);
+        }
+
+        if (nextButton) {
+            nextButton.addEventListener("click", () => {
+                console.log(`Next button clicked for ${carouselId}`);
+                moveSlide(carouselId, 1);
+            });
+        } else {
+            console.warn(`Next button not found for carousel: ${carouselId}`);
+        }
+    });
+});
+
 </script>
 
 
