@@ -15,7 +15,7 @@ permalink: /personal/gaming
       max-width: 800px;
       margin: 0 auto;
       position: relative;
-      overflow: hidden;
+      overflow: visible;
       border-radius: 10px;
       margin-bottom: 20px;
     }
@@ -44,22 +44,32 @@ permalink: /personal/gaming
     }
     /* Navigation buttons (next/previous) */
     .prev, .next {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      font-size: 18px;
-      padding: 10px;
-      cursor: pointer;
-      z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 18px;
+    padding: 15px; /* Increased padding for better clickability */
+    cursor: pointer;
+    z-index: 999; /* Increased z-index */
+    min-width: 40px; /* Ensures a larger click area */
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; Optional: Makes the buttons circular
     }
     .prev {
-      left: 10px;
+    left: 10px;
     }
     .next {
-      right: 10px;
+    right: 10px;
     }
+    .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+    }
+
   </style>
 </head>
 <body>
@@ -158,7 +168,6 @@ permalink: /personal/gaming
 
 // Function to move the slide
   function moveSlide(carouselId, direction) {
-      console.log("moveSlide called!"); // Debugging log
       const carousel = document.getElementById(carouselId);
       if (!carousel) {
           console.error(`Carousel with id '${carouselId}' not found!`);
