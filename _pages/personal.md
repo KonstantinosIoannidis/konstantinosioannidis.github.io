@@ -26,4 +26,8 @@ Here is a collection of informal blog posts about my interests and hobbies.
     <a href="/personal/sports">
         <b>Recreational sports I enjoy</b></a>
   </li>
+ <li>
+    <a href="/personal/test">
+        <b>carousel test</b></a>
+  </li>
 </ul>
