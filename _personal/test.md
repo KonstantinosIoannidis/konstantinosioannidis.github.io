@@ -85,7 +85,12 @@ permalink: /personal/test
     <span class="next" onclick="plusSlides(1, 1)">&#10095;</span>
   </div>
 
+<script>
+    console.log("Test script is running.");
+</script>
+
   <script>
+    console.log("Script loaded successfully.");
     let slideIndex = [1, 1];
     let slideId = ["mySlides1", "mySlides2"];
 
