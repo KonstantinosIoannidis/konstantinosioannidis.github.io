@@ -187,7 +187,7 @@ permalink: /personal/gaming
   }
 
 // Initialize carousels
-console.log("Script loaded.");  // Debugging log to ensure the script is loaded
+console.log("Carousel initialisation loaded.");  // Debugging log to ensure the script is loaded
 
 document.querySelectorAll(".carousel-container").forEach((carousel) => {
     const carouselId = carousel.id;
