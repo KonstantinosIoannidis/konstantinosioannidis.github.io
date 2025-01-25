@@ -160,7 +160,7 @@ permalink: /personal/gaming
       const carousel = document.getElementById(carouselId);
       const slides = carousel.querySelectorAll(".carousel-slide");
       let slideIndex = parseInt(carousel.getAttribute("data-slide-index") || 0);
-
+  console.log('function move slide loaded');
       // Update index based on direction
       slideIndex += direction;
 
@@ -170,11 +170,13 @@ permalink: /personal/gaming
       } else if (slideIndex < 0) {
           slideIndex = slides.length - 1;
       }
+  console.log('slide index loaded');
 
       // Update carousel index and display the correct slide
       carousel.setAttribute("data-slide-index", slideIndex);
       showSlide(carouselId, slideIndex);
-  }
+  console.log('display slide loaded');
+}
 
   // Function to show the slide
   function showSlide(carouselId, slideIndex) {
@@ -184,7 +186,8 @@ permalink: /personal/gaming
       slides.forEach((slide, idx) => {
           slide.style.display = idx === slideIndex ? "block" : "none";
       });
-  }
+  console.log('function show slide loaded');
+}
 
 // Initialize carousels
 console.log("Carousel initialisation loaded.");  // Debugging log to ensure the script is loaded
