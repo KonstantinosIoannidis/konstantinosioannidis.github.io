@@ -15,7 +15,7 @@ permalink: /personal/gaming
       max-width: 800px;
       margin: 0 auto;
       position: relative;
-      overflow: visible;
+      overflow: hidden;
       border-radius: 10px;
       margin-bottom: 20px;
     }
@@ -44,32 +44,22 @@ permalink: /personal/gaming
     }
     /* Navigation buttons (next/previous) */
     .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-size: 18px;
-    padding: 15px; /* Increased padding for better clickability */
-    cursor: pointer;
-    z-index: 999; /* Increased z-index */
-    min-width: 40px; /* Ensures a larger click area */
-    min-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%; Optional: Makes the buttons circular
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 1;
     }
     .prev {
-    left: 10px;
+      left: 10px;
     }
     .next {
-    right: 10px;
+      right: 10px;
     }
-    .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
-    }
-
   </style>
 </head>
 <body>
@@ -164,20 +154,12 @@ permalink: /personal/gaming
 </script>
 
 <script>
-  console.log("Script loaded!");
-
+  console.log('Carousel script loaded');
 // Function to move the slide
   function moveSlide(carouselId, direction) {
       const carousel = document.getElementById(carouselId);
-      if (!carousel) {
-          console.error(`Carousel with id '${carouselId}' not found!`);
-          return;
-      }
       const slides = carousel.querySelectorAll(".carousel-slide");
-      console.log(`Number of slides in ${carouselId}: ${slides.length}`); // Check slide count
-
       let slideIndex = parseInt(carousel.getAttribute("data-slide-index") || 0);
-      console.log(`Current slideIndex for ${carouselId}: ${slideIndex}`);
 
       // Update index based on direction
       slideIndex += direction;
@@ -188,23 +170,16 @@ permalink: /personal/gaming
       } else if (slideIndex < 0) {
           slideIndex = slides.length - 1;
       }
-      console.log(`Updated slideIndex for ${carouselId}: ${slideIndex}`);
 
       // Update carousel index and display the correct slide
       carousel.setAttribute("data-slide-index", slideIndex);
       showSlide(carouselId, slideIndex);
   }
 
-// Function to show the slide
+  // Function to show the slide
   function showSlide(carouselId, slideIndex) {
-      console.log(`showSlide called for ${carouselId}, showing slide ${slideIndex}`);
       const carousel = document.getElementById(carouselId);
-      if (!carousel) {
-          console.error(`Carousel with id '${carouselId}' not found in showSlide!`);
-          return;
-      }
       const slides = carousel.querySelectorAll(".carousel-slide");
-      console.log(`Found ${slides.length} slides in ${carouselId}`);
 
       slides.forEach((slide, idx) => {
           slide.style.display = idx === slideIndex ? "block" : "none";
@@ -212,45 +187,40 @@ permalink: /personal/gaming
   }
 
 // Initialize carousels
-  document.addEventListener("DOMContentLoaded", () => {
-      console.log("DOM fully loaded and parsed, initializing carousels...");
-      const carousels = document.querySelectorAll(".carousel-container");
+console.log("Carousel initialisation loaded.");  // Debugging log to ensure the script is loaded
 
-      if (carousels.length === 0) {
-          console.warn("No carousels found on the page!");
-      }
+document.querySelectorAll(".carousel-container").forEach((carousel) => {
+    const carouselId = carousel.id;
+    console.log(`Found carousel: ${carouselId}`);  // Debugging log to check carousel IDs
 
-      carousels.forEach((carousel) => {
-          const carouselId = carousel.id;
-          console.log(`Found carousel: ${carouselId}`); // Debugging log to check carousel IDs
+    carousel.setAttribute("data-slide-index", 0);
+    showSlide(carouselId, 0);
 
-          carousel.setAttribute("data-slide-index", 0);
-          showSlide(carouselId, 0);
+    const prevButton = carousel.querySelector(".prev");
+    const nextButton = carousel.querySelector(".next");
 
-          const prevButton = carousel.querySelector(".prev");
-          const nextButton = carousel.querySelector(".next");
+    if (prevButton) {
+        console.log(`Prev button found for ${carouselId}`);  // Debugging log to confirm prev button
+        prevButton.addEventListener("click", () => {
+            console.log(`Prev button clicked for ${carouselId}`);  // Debugging log when prev button is clicked
+            moveSlide(carouselId, -1);
+        });
+    } else {
+        console.warn(`Prev button not found for carousel: ${carouselId}`);  // Warning if prev button is missing
+    }
 
-          if (prevButton) {
-              console.log(`Prev button found for ${carouselId}`); // Debugging log to confirm prev button
-              prevButton.addEventListener("click", () => {
-                  console.log(`Prev button clicked for ${carouselId}`); // Debugging log when prev button is clicked
-                  moveSlide(carouselId, -1);
-              });
-          } else {
-              console.warn(`Prev button not found for carousel: ${carouselId}`); // Warning if prev button is missing
-          }
+    if (nextButton) {
+        console.log(`Next button found for ${carouselId}`);  // Debugging log to confirm next button
+        nextButton.addEventListener("click", () => {
+            console.log(`Next button clicked for ${carouselId}`);  // Debugging log when next button is clicked
+            moveSlide(carouselId, 1);
+        });
+    } else {
+        console.warn(`Next button not found for carousel: ${carouselId}`);  // Warning if next button is missing
+    }
+});
 
-          if (nextButton) {
-              console.log(`Next button found for ${carouselId}`); // Debugging log to confirm next button
-              nextButton.addEventListener("click", () => {
-                  console.log(`Next button clicked for ${carouselId}`); // Debugging log when next button is clicked
-                  moveSlide(carouselId, 1);
-              });
-          } else {
-              console.warn(`Next button not found for carousel: ${carouselId}`); // Warning if next button is missing
-          }
-      });
-  });
+
 </script>
 
 
