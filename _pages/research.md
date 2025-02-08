@@ -31,7 +31,7 @@ author_profile: true
     </li>
     <li>
         <a href="/research/kme">
-        <b>Markets or Patents? A Comparative Study on Incentivising Collective Innovation</b></a>
+        <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
         <!-- <i>data collection in progress</i> -->
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
     </li>
