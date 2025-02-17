@@ -96,12 +96,13 @@ permalink: /personal/gaming
     .carousel-wrapper {
         position: relative;
         width: 80%;
-        margin: 0 auto 2rem;
+        margin: 0 auto;
     }
     .carousel-container {
         position: relative;
         overflow: hidden;
         width: 100%;
+        border-radius: 10px;
     }
     .carousel {
         display: flex;
