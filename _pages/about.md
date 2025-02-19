@@ -18,12 +18,12 @@ redirect_from:
   }
 </style>
 
-<p align="justify">I am Konstantinos Ioannidis, a Postdoctoral Researcher at the <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>. I am part of the <a href="https://lipne.econ.cam.ac.uk/" target="_blank">Leverhulme International Professorship in Neuroeconomics Lab</a> lead by professor <a href="https://www.econ.cam.ac.uk/people/faculty/plb32" target="_blank">Peter Bossaerts</a>. I am also affiliated with <a href="https://www.queens.cam.ac.uk/contacts/directories/rokos-postdoctoral-research-associates" target="_blank">Queens' College</a> and the <a href="https://www.cambridgecybercrime.uk/" target="_blank">Cambridge Cybercrime Centre</a>.</p>
+<p align="justify">I am Konstantinos Ioannidis, a Postdoctoral Researcher at the <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>. I am part of the <a href="https://lipne.econ.cam.ac.uk/" target="_blank">Leverhulme International Professorship in Neuroeconomics Lab</a> lead by professor <a href="https://www.econ.cam.ac.uk/people/faculty/plb32" target="_blank">Peter Bossaerts</a>. I am also affiliated with <a href="https://www.queens.cam.ac.uk/contacts/directories/rokos-postdoctoral-research-associates" target="_blank">Queens' College Cambridge</a>, the <a href="https://www.cambridgecybercrime.uk/" target="_blank">Cambridge Cybercrime Centre</a>, and I am the University of Cambridge representative at the <a href="https://www.bee-uk.org/" target="_blank">UK network of Behavioural and Experimental Economists</a>.</p>
 
 <p align="justify">My primary research fields are Behavioral Economics, Experimental Economics, and Game Theory. Our lab focuses on how computational complexity affects decision making and how markets can help individuals solve complex problems. I also research the dichotomy between honest and dishonest communication, and habit formation. A preview of my research is below. This was my first time ever shooting a video!
   <video width="600" height="400" controls>
     <source src="/videos/lipne.mp4" type="video/mp4">
-    Your browser does not support the video tag. Please try a modern browser.
+    Your browser does not support the video tag. Please try a different browser.
   </video>
 </p>
 
