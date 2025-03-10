@@ -35,25 +35,25 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p><b><i>Details</i></b>: {{ page.type }} course, {{ page.venue }}, {{ page.date_range }} </p>
-          {% if page.syllabus %}<p><b><i>Syllabus</i></b>: {{ page.syllabus }} </p>{% endif %}
-          {% if page.evaluation %}<p><b><i>Teaching evaluation</i></b>: {{ page.evaluation }} </p>{% endif %}
+          <p align="justify"><b><i>Details</i></b>: {{ page.type }} course, {{ page.venue }}, {{ page.date_range }} </p>
+          {% if page.syllabus %}<p align="justify"><b><i>Syllabus</i></b>: {{ page.syllabus }} </p>{% endif %}
+          {% if page.evaluation %}<p align="justify"><b><i>Teaching evaluation</i></b>: {{ page.evaluation }} </p>{% endif %}
         {% elsif page.collection == 'research' %}
-            {% if page.stage %}<p><b><i>Stage</b></i>: {{ page.stage }} </p>{% endif %}
-            {% if page.authors %}<p><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
-            {% if page.abstract %}<p><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
-            {% if page.keywords %}<p><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
-            {% if page.jel_codes %}<p><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
-            {% if page.presented %}<p><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
+            {% if page.stage %}<p align="justify"><b><i>Stage</b></i>: {{ page.stage }} </p>{% endif %}
+            {% if page.authors %}<p align="justify"><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
+            {% if page.abstract %}<p align="justify"><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
+            {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
+            {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
+            {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
           {% elsif page.collection == 'publications' %}
-            <p><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-            {% if page.authors %}<p><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
-            {% if page.abstract %}<p><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
-            {% if page.keywords %}<p><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
-            {% if page.jel_codes %}<p><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
-            {% if page.presented %}<p><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
+            <p align="justify"><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+            {% if page.authors %}<p align="justify"><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
+            {% if page.abstract %}<p align="justify"><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
+            {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
+            {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
+            {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
           {% elsif page.venue and page.date %}
-            <p><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+            <p align="justify"><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    
