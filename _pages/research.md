@@ -42,6 +42,12 @@ author_profile: true
         (with Noriko Amano-Patiño and James Morris)
     </li>
     <li>
+        <a href="/research/satisficing">
+        <b>Stuck or satisfied? The role of complexity and information signals on stopping times in difficult financial decisions</b></a>
+        <!-- <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i>  -->
+        (with Zheng Li)
+    </li>
+    <li>
         <a href="/research/virtue">
         <b>Disentangling prosociality from virtue signalling</b></a>
         <!-- <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i>  -->
