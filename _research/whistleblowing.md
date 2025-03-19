@@ -7,7 +7,7 @@ permalink: /research/whistleblowing
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
 # venue: 'Experimental Economics'
-paperurl: '/files/research/habits.pdf'
+paperurl: '/files/research/whistleblowing.pdf'
 stage: "Dissertation chapter, preparing for submission"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
