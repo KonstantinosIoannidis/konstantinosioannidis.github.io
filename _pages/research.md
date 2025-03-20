@@ -12,7 +12,7 @@ author_profile: true
   <li>
     <a href="/research/habits">
         <b>Habitual communication</b></a>
-        <i>R&R at Experimental Economics</i>
+        <i>R&R (2<sup>nd</sup> round) at Experimental Economics</i>
   </li>
   <li>
     <a href="/research/whistleblowing">
