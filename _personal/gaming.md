@@ -114,6 +114,24 @@ permalink: /personal/gaming
   </div>
 </div>
 
+<!-- <div class="carousel-wrapper">
+  <h2 align="center">Beat'em up Games</h2>
+  <div class="carousel-container">
+    <div class="carousel" id="carousel4">
+<div class="carousel-item">
+    <img src="/images/gaming/asterix_obelix_xxl_3.jpeg" alt="Asterix & Obelix XXL 3: The Crystal Menhir">
+    <p class="carousel-caption">Asterix & Obelix XXL 3: The Crystal Menhir</p>
+</div>
+<div class="carousel-item">
+    <img src="/images/gaming/asterix_obelix_xxl_2.jpeg" alt="Asterix & Obelix XXL 2: Mission Las Vegum">
+    <p class="carousel-caption">Asterix & Obelix XXL 2: The Crystal Menhir</p>
+</div>
+    </div>
+    <button class="prev" onclick="moveCarousel('carousel4', -1)">&#10094;</button>
+    <button class="next" onclick="moveCarousel('carousel4', 1)">&#10095;</button>
+  </div>
+</div> -->
+
 <style>
     .carousel-wrapper {
         position: relative;
