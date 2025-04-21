@@ -48,8 +48,8 @@ author_profile: true
         (with Zheng Li)
     </li>
     <li>
-        <a href="/research/virtue">
-        <b>Disentangling prosociality from virtue signalling</b></a>
+        <a href="/research/donations">
+        <b>“Thoughts and prayers” or “Thoughts and payers”: Disentangling prosociality from virtue signalling</b></a>
         <!-- <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i>  -->
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
     </li>
