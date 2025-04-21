@@ -1,5 +1,5 @@
 ---
-title: "The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination"
+title: "The impact of qualitative reviews in online markets: Empirical and experimental evidence on racial statistical discrimination"
 authors: "Noriko Amano-Patiño, Konstantinos Ioannidis, James Morris"
 collection: research
 category: progress
