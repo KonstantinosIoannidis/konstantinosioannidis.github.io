@@ -41,12 +41,12 @@ author_profile: true
         <!-- <i>data collection in progress</i> -->
         (with Noriko Amano-Patiño and James Morris)
     </li>
-    <li>
+    <!-- <li>
         <a href="/research/satisficing">
         <b>Stuck or satisfied? The role of complexity and information signals on stopping times in difficult financial decisions</b></a>
         <!-- <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i>  -->
         (with Zheng Li)
-    </li>
+    </li> -->
     <li>
         <a href="/research/donations">
         <b>“Thoughts and prayers” or “Thoughts and payers”: Disentangling prosociality from virtue signalling</b></a>
