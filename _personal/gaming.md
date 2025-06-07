@@ -102,7 +102,7 @@ permalink: /personal/gaming
 </div>
 <div class="carousel-item">
     <img src="/images/gaming/asterix_obelix_xxl_2.jpeg" alt="Asterix & Obelix XXL 2: Mission Las Vegum">
-    <p class="carousel-caption">Asterix & Obelix XXL 2: The Crystal Menhir</p>
+    <p class="carousel-caption">Asterix & Obelix XXL 2: Mission Las Vegum</p>
 </div>
 <div class="carousel-item">
     <img src="/images/gaming/asterix_obelix_xxl_1.jpeg" alt="Asterix & Obelix XXL">
