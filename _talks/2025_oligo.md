@@ -1,0 +1,13 @@
+---
+title: "13<sup>th</sup> Oligo Workshop"
+collection: talks
+type: "Habitual communication"
+permalink: /talks/2025_oligo
+location_name: "University of Cambridge"
+date: 2025-06-03
+location: "Cambridge, United Kingdom"
+latitude: 52.205
+longitude: 0.113
+---
+
+52.20546774661325, 0.11320018404005001
