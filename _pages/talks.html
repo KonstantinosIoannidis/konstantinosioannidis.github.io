@@ -1,16 +1,69 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: default
+title: "Presentations - Have we met before?"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<h1>Talks Map</h1>
+<div id="map" style="height: 600px;"></div>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<!-- Load Leaflet CSS & JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
-{% endif %}
+<script>
+  // Prepare talks data in JSON from Jekyll collection
+  const talks = [
+    {% for talk in site.talks %}
+      {% if talk.latitude and talk.longitude %}
+      {
+        title: {{ talk.title | jsonify }},
+        date: "{{ talk.date | date: '%Y-%m-%d' }}",
+        location_name: {{ talk.location_name | jsonify }},
+        latitude: {{ talk.latitude }},
+        longitude: {{ talk.longitude }},
+        url: {{ talk.url | absolute_url | jsonify }}
+      },
+      {% endif %}
+    {% endfor %}
+  ];
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+  // Group talks by lat,lng
+  const talksByLocation = {};
+  talks.forEach(t => {
+    const key = `${t.latitude},${t.longitude}`;
+    if (!talksByLocation[key]) {
+      talksByLocation[key] = [];
+    }
+    talksByLocation[key].push(t);
+  });
+
+  // Sort talks in each group by date descending
+  Object.values(talksByLocation).forEach(talkGroup => {
+    talkGroup.sort((a,b) => new Date(b.date) - new Date(a.date));
+  });
+
+  // Initialize Leaflet map centered roughly at (0,0)
+  const map = L.map('map').setView([20, 0], 2);
+
+  // Add OpenStreetMap tile layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  // Add markers with popup
+  Object.entries(talksByLocation).forEach(([key, talkGroup]) => {
+    const [lat, lng] = key.split(',').map(Number);
+
+    // Build popup content listing talks
+    let popupContent = `<strong>${talkGroup[0].location_name}</strong><br/><ul>`;
+    talkGroup.forEach(t => {
+      popupContent += `<li><a href="${t.url}">${t.title}</a> (${t.date})</li>`;
+    });
+    popupContent += '</ul>';
+
+    L.marker([lat, lng]).addTo(map).bindPopup(popupContent);
+  });
+</script>
+
