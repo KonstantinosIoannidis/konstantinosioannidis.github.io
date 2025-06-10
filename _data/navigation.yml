@@ -14,11 +14,8 @@ main:
   - title: "Current Research"
     url: /research/
 
-  # - title: "Talks"
-  #   url: /talks/   
-
-  - title: "Presentations"
-    url: /talks/talks_map/ 
+  # - title: "Presentations"
+  #   url: /talks/ 
 
   - title: "Teaching"
     url: /teaching/    
