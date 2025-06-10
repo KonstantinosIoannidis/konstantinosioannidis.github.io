@@ -9,5 +9,3 @@ location: "Cambridge, United Kingdom"
 latitude: 52.205
 longitude: 0.113
 ---
-
-52.20546774661325, 0.11320018404005001
