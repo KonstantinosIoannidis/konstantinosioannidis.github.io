@@ -26,19 +26,19 @@ author_profile: true
     <li>
         <a href="/research/mig">
         <b>How general equilibrium in markets with indivisible goods obtains at the cost of computational complexity</b></a>
-        <!-- <i>Draft under preparation</i> -->
+        <i>Draft under preparation</i>
         (with Peter Bossaerts, Robert Woods, Nitin Yadav)
     </li>
     <li>
         <a href="/research/kme">
         <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
-        <!-- <i>data collection in progress</i> -->
+        <i>data collection in progress</i>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
     </li>
     <li>
         <a href="/research/fakebnb">
         <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
-        <!-- <i>data collection in progress</i> -->
+        <i>data collection in progress</i>
         (with Noriko Amano-Patiño and James Morris)
     </li>
     <!-- <li>
@@ -50,7 +50,7 @@ author_profile: true
     <li>
         <a href="/research/donations">
         <b>“Thoughts and prayers” or “Thoughts and payers”: Disentangling prosociality from virtue signalling</b></a>
-        <!-- <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i>  -->
+        <i>grant awarded by Keynes Fund</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
     </li>
 </ul>
