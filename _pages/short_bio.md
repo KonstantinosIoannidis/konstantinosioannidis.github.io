@@ -29,5 +29,5 @@ Academic appointments (secondary)
 -----
 * <img src="/images/institutions/pittsburgh.png" width="40" height="40"> 2025: Visiting research scholar, Department of Economics, <a href="https://www.econ.pitt.edu/" target="_blank">University of Pittsburgh</a>  
 * <img src="/images/institutions/carnegie_mellon.png" width="40" height="40"> 2025: Visiting research scholar, Tepper School of Business, <a href="https://www.cmu.edu/tepper/" target="_blank">Carnegie Mellon University</a>
-* <img src="/images/institutions/queens.png" width="40" height="40"> 2024-2025: Rokos Postdoctoral Research Associate, <a href="https://www.queens.cam.ac.uk/" target="_blank">Queens' College Cambridge</a>
+* <img src="/images/institutions/queens.png" width="40" height="40"> 2024-2026: Rokos Postdoctoral Research Associate, <a href="https://www.queens.cam.ac.uk/" target="_blank">Queens' College Cambridge</a>
 * <img src="/images/institutions/cambridge.png" width="40" height="40"> 2023-2026: Visiting Researcher, Cambridge Cybercrime Centre, <a href="https://www.cambridgecybercrime.uk/" target="_blank">University of Cambridge</a>
