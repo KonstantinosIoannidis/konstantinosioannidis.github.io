@@ -97,6 +97,10 @@ permalink: /personal/gaming
   <div class="carousel-container">
     <div class="carousel" id="carousel3">
 <div class="carousel-item">
+    <img src="/images/gaming/asterix_obelix_xxxl.jpg" alt="Asterix & Obelix XXXL: The Ram From Hibernia">
+    <p class="carousel-caption">Asterix & Obelix XXXL: The Ram From Hibernia</p>
+</div>
+<div class="carousel-item">
     <img src="/images/gaming/asterix_obelix_xxl_3.jpeg" alt="Asterix & Obelix XXL 3: The Crystal Menhir">
     <p class="carousel-caption">Asterix & Obelix XXL 3: The Crystal Menhir</p>
 </div>
