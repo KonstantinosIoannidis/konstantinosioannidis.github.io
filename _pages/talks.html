@@ -14,7 +14,6 @@ author_profile: true
     {% for post in site.talks %}
       {
         title: {{ post.title | jsonify }},
-        url: {{ post.url | relative_url | jsonify }},
         location_name: {{ post.location_name | jsonify }},
         lat: {{ post.latitude | default: 'null' }},
         lng: {{ post.longitude | default: 'null' }},
@@ -23,28 +22,18 @@ author_profile: true
     {% endfor %}
   ];
 
-// Initialize map centered on Greece
+  // Initialize map centered on Greece
 var map = L.map('talkmap', {
-  worldCopyJump: false,
-  maxBoundsViscosity: 1.0,
-  zoomControl: false,
-  attributionControl: false
-});
+  zoomControl: true,         // default zoom control
+  attributionControl: false  // hide attribution
+}).setView([50.0, 10.0], 4); // Center roughly in Europe
 
-// Add OpenStreetMap tiles
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// English tile provider (Carto Light)
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  subdomains: 'abcd',
   maxZoom: 19,
-  noWrap: true
+  noWrap: false    // allow infinite horizontal scrolling
 }).addTo(map);
-
-// Custom zoom control without tooltips
-L.control.zoom({
-  zoomInTitle: "",
-  zoomOutTitle: ""
-}).addTo(map);
-
-// Limit panning roughly to world
-map.setMaxBounds([[-60.0, -170.0], [85.0, 170.0]]);
 
 // Add markers
 var markers = [];
@@ -60,16 +49,12 @@ talks.forEach(function(t) {
   }
 });
 
-// Fit map to markers & set dynamic minZoom
+// Fit map to markers (will zoom out if needed)
 if (markers.length) {
   var group = L.featureGroup(markers);
   map.fitBounds(group.getBounds().pad(0.2));
-  var initialZoom = map.getZoom();
-  map.setMinZoom(initialZoom);  // now user can zoom in freely, but not out past initial view
-} else {
-  map.setView([39.0, 22.0], 6);
-  map.setMinZoom(6);
 }
+
 </script>
 
 <hr>
