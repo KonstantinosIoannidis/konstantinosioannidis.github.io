@@ -5,12 +5,12 @@ permalink: /talks/
 author_profile: true
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<!-- <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <style>
   #talkmap { height: 600px; margin: 1rem 0; }
 </style>
 
-<div id="talkmap"></div>
+<div id="talkmap"></div> -->
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
@@ -70,7 +70,7 @@ author_profile: true
 
 <hr>
 
-<h2>All Talks</h2>
+<!-- <h2>All Talks</h2> -->
 
 {% assign talks_by_year = site.talks | group_by_exp:"talk","talk.date | date: '%Y'" | sort: "name" | reverse %}
 <ul>
