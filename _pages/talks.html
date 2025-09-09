@@ -32,7 +32,7 @@ var map = L.map('talkmap', {
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   subdomains: 'abcd',
   maxZoom: 19,
-  noWrap: false    // allow infinite horizontal scrolling
+  noWrap: true   // prevent horizontal repetition
 }).addTo(map);
 
 // Add markers
