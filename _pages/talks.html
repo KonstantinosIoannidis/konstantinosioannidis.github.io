@@ -10,7 +10,6 @@ author_profile: true
   #talkmap { height: 600px; margin: 1rem 0; }
 </style>
 
-<h1>Talk locations</h1>
 <div id="talkmap"></div>
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -26,6 +25,8 @@ author_profile: true
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ];
+
+  console.log("Talks array:", talks);
 
   // Initialize map centered on Europe
   var map = L.map('talkmap', { worldCopyJump: false, maxBoundsViscosity: 1.0 }).setView([54, 15], 4);
