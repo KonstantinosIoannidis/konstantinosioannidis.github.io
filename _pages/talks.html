@@ -81,7 +81,7 @@ author_profile: true
         {% assign sorted_talks = year.items | sort: "date" | reverse %}
         {% for post in sorted_talks %}
           <li>
-            {{ post.title }} – {{ post.location_name }} ({{ post.date | date: "%b %d" }})
+            <em>{{ post.title }}</em>, {{ post.location_name }}, {{ post.date | date: "%B %-d" }}
           </li>
         {% endfor %}
       </ul>
