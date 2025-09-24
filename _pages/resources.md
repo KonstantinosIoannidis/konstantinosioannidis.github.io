@@ -30,9 +30,9 @@ Interesting links
 
 Do it yourself tips
 -----
+* <a href="https://jayrobwilliams.com/posts/2020/06/academic-website/" target="_blank">Building an Academic Website</a>
 * <a href="https://github.com/cxli233/FriendsDontLetFriends" target="_blank">Friends Don't Let Friends Make Bad Graphs</a>
 * <a href="https://github.com/benjann/violinplot" target="_blank">Violin Plots with Stata</a>
-* <a href="https://jayrobwilliams.com/posts/2020/06/academic-website/" target="_blank">Building an Academic Website</a>
+* <a href="https://www.stata.com/features/overview/add-your-own-power-and-sample-size-methods/" target="_blank">Custom power commands into Stata</a>
 * <a href="https://researcher-help.prolific.com/en/article/fbbd36" target="_blank">Qualtrics & Prolific Integration Guide</a>
-* <a href="https://www.tablesgenerator.com/" target="_blank">Generate tables in LaTeX format</a>
 
