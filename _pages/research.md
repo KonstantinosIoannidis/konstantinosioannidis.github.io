@@ -53,10 +53,10 @@ author_profile: true
         <i>Grant awarded by Keynes Fund</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
     </li>
-    <li>
+    <!-- <li>
         <a href="/research/pgg">
         <b>Monetary vs. hypothetical incentives: The case of public good games without and with punishment</b></a>
         <i>Draft under preparation</i>
         (with Michalis Drouvelis and Steffen Kallbekken)
-    </li>
+    </li> -->
 </ul>
