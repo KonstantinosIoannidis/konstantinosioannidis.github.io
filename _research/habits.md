@@ -12,7 +12,7 @@ stage: "Revision submitted at Experimental Economics"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
-link_preregistration: "https://www.socialscienceregistry.org/trials/6387"
+link_preregistration: "https://www.socialscienceregistry.org/trials/16899"
 abstract: "This paper studies habitual communication in a sender-receiver setting with information asymmetry. We investigate how habits formed in familiar environments affect communication in an unfamiliar environment. Using a controlled experiment with varying levels of preference alignment, we test two hypotheses: (i) whether familiarity with common-interest compared to conflicting-interest environments leads to more informative communication in an unfamiliar environment, and (ii) how reliance on communication habits varies based on the frequency of interacting in an unfamiliar environment. We find evidence for habitual communication only when the unfamiliar environment occurs rarely. Analysis of individual decisions provides suggestive evidence on the mechanisms."
 keywords: "habits, strategic information transmission, communication, experiment"
 jel_codes: "C92, D01, D83, D91"
