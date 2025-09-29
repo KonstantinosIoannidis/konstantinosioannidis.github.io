@@ -21,7 +21,7 @@ repository               : "KonstantinosIoannidis/konstantinosioannidis.github.i
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "konstantinos.jpg"
+  avatar           : "konstantinos.png"
   name             : "Experimental economist"
   pronouns         : # example: "she/her"  
   bio              : " "
