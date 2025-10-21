@@ -17,7 +17,7 @@ author_profile: true
   <li>
     <a href="/research/whistleblowing">
         <b>Whistleblowing and competition</b></a>
-        <i>Dissertation chapter, preparing for submission</i>
+        <i>Under review</i>
   </li>
 </ul>
 
