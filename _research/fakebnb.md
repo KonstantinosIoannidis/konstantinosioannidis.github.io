@@ -8,7 +8,7 @@ permalink: /research/fakebnb
 date: 2024-07-06
 # venue: 'Experimental Economics'
 # paperurl: '/files/research/habits.pdf'
-stage: "Programming the experiment"
+stage: "Programming the experiment, grant awarded from Cambridge Humanities Research Grants"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
