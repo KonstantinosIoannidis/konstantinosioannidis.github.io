@@ -32,7 +32,7 @@ author_profile: true
     <li>
         <a href="/research/kme">
         <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
-        <i>Data collection in progress</i>
+        <i>Draft under preparation</i>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
     </li>
     <li>
@@ -50,7 +50,7 @@ author_profile: true
     <li>
         <a href="/research/donations">
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
-        <i>Grant awarded by Keynes Fund</i> 
+        <i>Data collection in progress</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
     </li>
     <!-- <li>
