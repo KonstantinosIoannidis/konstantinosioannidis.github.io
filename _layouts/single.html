@@ -41,8 +41,8 @@ layout: default
         {% elsif page.collection == 'research' %}
             {% if page.authors %}<p align="justify"><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
             {% if page.stage %}<p align="justify"><b><i>Stage</b></i>: {{ page.stage }} </p>{% endif %}
-            {% if page.funding %}<p align="justify"><b><i>Funding</i></b>: {{ page.funding }} </p>{% endif %}
             {% if page.abstract %}<p align="justify"><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
+            {% if page.funding %}<p align="justify"><b><i>Funding</i></b>: {{ page.funding }} </p>{% endif %}
             {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
             {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
             {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
@@ -50,6 +50,7 @@ layout: default
             <p align="justify"><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
             {% if page.authors %}<p align="justify"><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
             {% if page.abstract %}<p align="justify"><b><i>Abstract</i></b>: {{ page.abstract }} </p>{% endif %}
+            {% if page.funding %}<p align="justify"><b><i>Funding</i></b>: {{ page.funding }} </p>{% endif %}
             {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
             {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
             {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
@@ -76,13 +77,14 @@ layout: default
           <p><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% endif %} -->
 
-        {% if page.link_publication or page.link_data or page.link_preregistration or page.paperurl %}
+        {% if page.link_publication or page.link_data or page.link_preregistration or page.paperurl or paper.link_demo %}
           <p>
             <b>Links</b>: 
             {% if page.paperurl %}<a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "Download PDF" }}</a>{% endif %}
             {% if page.link_publication %}<a href="{{ page.link_publication }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a>{% endif %}
             {% if page.link_data %}<a href="{{ page.link_data }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].data_link_label | default: "Data and Code" }}</a>{% endif %}
             {% if page.link_preregistration %}<a href="{{ page.link_preregistration }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].preregistration_link_label | default: "Preregistration" }}</a>{% endif %}
+            {% if page.link_demo %}<a href="{{ page.link_demo }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].demo_link_label | default: "Demo" }}</a>{% endif %}
           </p>
         {% endif %}
 
