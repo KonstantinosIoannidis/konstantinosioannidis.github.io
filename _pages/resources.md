@@ -27,6 +27,7 @@ Interesting links
 * <a href="https://docs.google.com/spreadsheets/d/1434ApdJsvdtRNIpDR_O3h-kmUffcL24_cJj7BXyCezs/edit?gid=491277435#gid=491277435" target="_blank">Laboratory Experiments in Top Economics Journals</a>
 * <a href="https://docs.google.com/spreadsheets/d/1RN6ygDCSdl16rFzt2D_OOnZkqjv-1TyM1CMaIID8voY/edit?gid=1333208242#gid=1333208242" target="_blank">List of Experimental Economics Labs</a>
 * <a href="https://deceptionresearchsociety.org/" target="_blank">Deception Research Society</a>
+* <a href="https://gitmind.com/app/docs/mvcv97bz" target="_blank">From Regression to Reality: Why Econometrics Feels Harder Than Theory</a>
 
 Do it yourself tips
 -----
