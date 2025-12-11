@@ -9,13 +9,19 @@ author_profile: true
 
 <h2>Working papers</h2>
 <ul>
+    <!-- <li>
+        <a href="/research/mig">
+        <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
+        <i>Preparing for submission</i>
+        (with Peter Bossaerts, Robert Woods, Nitin Yadav)
+    </li> -->
   <li>
-    <a href="/research/habits">
+        <a href="/research/habits">
         <b>Habitual communication</b></a>
         <i>Under review</i>
   </li>
   <li>
-    <a href="/research/whistleblowing">
+        <a href="/research/whistleblowing">
         <b>Whistleblowing and competition</b></a>
         <i>Under review</i>
   </li>
@@ -25,7 +31,7 @@ author_profile: true
 <ul>
     <li>
         <a href="/research/mig">
-        <b>How general equilibrium in markets with indivisible goods obtains at the cost of computational complexity</b></a>
+        <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
         <i>Draft under preparation</i>
         (with Peter Bossaerts, Robert Woods, Nitin Yadav)
     </li>
