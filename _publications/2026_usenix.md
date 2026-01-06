@@ -1,5 +1,5 @@
 ---
-title: "Stayin' Alive: How Global Stolen Data Markets Thrive on Telegram"
+title: "Stayin' alive: How global stolen data markets thrive on Telegram"
 authors: "Tina Marjanov, Taro Tsuchiya, Konstantinos Ioannidis, Jack Hughes, Nicolas Christin, Alice Hutchings"
 collection: publications
 category: conferences
