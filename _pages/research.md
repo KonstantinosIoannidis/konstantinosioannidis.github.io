@@ -9,44 +9,26 @@ author_profile: true
 
 <h2>Working papers</h2>
 <ul>
-    <!-- <li>
+    <li>
         <a href="/research/mig">
         <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        <i>Preparing for submission</i>
+        <i>SSRN working paper</i>
         (with Peter Bossaerts, Robert Woods, Nitin Yadav)
-    </li> -->
-  <li>
+    </li>
+    <li>
         <a href="/research/habits">
         <b>Habitual communication</b></a>
-        <i>Under review</i>
-  </li>
-  <li>
+        <i>Submitted</i>
+    </li>
+    <li>
         <a href="/research/whistleblowing">
         <b>Whistleblowing and competition</b></a>
-        <i>Under review</i>
-  </li>
+        <i>Preparing for submission</i>
+    </li>
 </ul>
 
 <h2>Work in progress</h2>
 <ul>
-    <li>
-        <a href="/research/mig">
-        <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        <i>Draft under preparation</i>
-        (with Peter Bossaerts, Robert Woods, Nitin Yadav)
-    </li>
-    <li>
-        <a href="/research/kme">
-        <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
-        <i>Draft under preparation</i>
-        (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
-    </li>
-    <li>
-        <a href="/research/fakebnb">
-        <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
-        <i>Data collection in progress</i>
-        (with Noriko Amano-Patiño and James Morris)
-    </li>
     <!-- <li>
         <a href="/research/satisficing">
         <b>Stuck or satisfied? The role of complexity and information signals on stopping times in difficult financial decisions</b></a>
@@ -58,6 +40,18 @@ author_profile: true
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
         <i>Data collection in progress</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
+    </li>
+    <li>
+        <a href="/research/fakebnb">
+        <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
+        <i>Data collection in progress</i>
+        (with Noriko Amano-Patiño and James Morris)
+    </li>
+    <li>
+        <a href="/research/kme">
+        <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
+        <i>Draft under preparation</i>
+        (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
     </li>
     <!-- <li>
         <a href="/research/pgg">
