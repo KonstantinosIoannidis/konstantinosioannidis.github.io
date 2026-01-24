@@ -18,7 +18,7 @@ author_profile: true
     <li>
         <a href="/research/habits">
         <b>Habitual communication</b></a>
-        <i>Submitted</i>
+        <i>Under review</i>
     </li>
     <li>
         <a href="/research/whistleblowing">
