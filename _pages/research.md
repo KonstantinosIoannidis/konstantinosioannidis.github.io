@@ -12,7 +12,7 @@ author_profile: true
     <li>
         <a href="/research/mig">
         <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        <i>SSRN working paper</i>
+        <i>Cambridge Working Papers in Economics</i>
         (with Peter Bossaerts, Robert Woods, Nitin Yadav)
     </li>
     <li>
