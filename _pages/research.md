@@ -20,11 +20,11 @@ author_profile: true
         <b>Habitual communication</b></a>
         <i>Under review</i>
     </li>
-    <li>
+    <!-- <li>
         <a href="/research/whistleblowing">
         <b>Whistleblowing and competition</b></a>
         <i>Preparing for submission</i>
-    </li>
+    </li> -->
 </ul>
 
 <h2>Work in progress</h2>
