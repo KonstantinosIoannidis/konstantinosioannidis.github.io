@@ -13,7 +13,7 @@ author_profile: true
         <a href="/research/mig">
         <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
         <i>Cambridge Working Papers in Economics</i>
-        (with Peter Bossaerts, Robert Woods, Nitin Yadav)
+        (with Peter Bossaerts, Robert Woods, and Nitin Yadav)
     </li>
     <li>
         <a href="/research/habits">
@@ -51,7 +51,7 @@ author_profile: true
         <a href="/research/kme">
         <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
         <i>Draft under preparation</i>
-        (with Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan)
+        (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
     </li>
     <!-- <li>
         <a href="/research/pgg">
