@@ -27,13 +27,19 @@ redirect_from:
   </video>
 </p> -->
 
-<p align="justify">I am Konstantinos Ioannidis, a Postdoctoral Researcher at the <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>. I am part of the <a href="https://lipne.econ.cam.ac.uk/" target="_blank">Leverhulme International Professorship in Neuroeconomics Lab</a> lead by professor <a href="https://www.econ.cam.ac.uk/people/faculty/plb32" target="_blank">Peter Bossaerts</a>. Our lab focuses on how computational complexity affects decision making and how markets can help individuals solve complex problems. I also research the dichotomy between honest and dishonest communication, and habit formation. An overview of my research is below. This was my first time ever shooting a video!
+<p align="justify">I am Konstantinos Ioannidis, a Postdoctoral Researcher at the <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>. I obtained my PhD from the University of Amsterdam.
+</p>
+
+<p align="justify">In a complex world, good decisions are often not fully optimal, they are the best we can manage. My research studies how people trade off the quality of decisions against the cognitive cost of making them. How do we act when we do not know what the optimal choice looks like, or how much is at stake? Do we rely on heuristics or rely on habits that worked well in the past? My goal is to build a more realistic understanding of decision-making in such environments, a necessary ingredient for improving welfare.
+</p>
+
+<p align="justify">An overview of my research is below. This was my first time ever shooting a video!
   <video width="600" height="400" controls>
     <source src="/videos/lipne.mp4" type="video/mp4">
     Your browser does not support the video tag. Please try a different browser.
   </video>
 </p>
 
-<p align="justify">I obtained my PhD in Economics at <a href="https://www.creedexperiment.nl/creed/peopleindex.php" target="_blank">CREED</a> at the University of Amsterdam under the supervision of <a href="https://www.uva.nl/en/profile/o/f/t.j.s.offerman/t.j.s.offerman.html" target="_blank">Theo Offerman</a> and <a href="https://www.uva.nl/en/profile/s/l/r.sloof/r.sloof.html" target="_blank">Randolph Sloof</a> in 2024. I hold three MSc diplomas in Economics, Mathematics, and Statistics.</p>
+<!-- <p align="justify">I obtained my PhD in Economics from the University of Amsterdam in 2024.</p> -->
 
-<p align="justify">Feel free to explore the website and get to know more about my <a href="/publications/">publications</a>, my <a href="/research/">current research</a>, check a more detailed <a href="/files/cv_ioannidis.pdf" target="_blank">CV</a>, or get to know what I <a href="/personal/">enjoy</a> doing outside of academia. If you're interested in collaborating on research, projects, or other initiatives, don't hesitate to reach out!</p>
+<!-- <p align="justify">Feel free to explore the website and get to know more about my <a href="/publications/">publications</a>, my <a href="/research/">current research</a>, check a more detailed <a href="/files/cv_ioannidis.pdf" target="_blank">CV</a>, or get to know what I <a href="/personal/">enjoy</a> doing outside of academia. If you're interested in collaborating on research, projects, or other initiatives, don't hesitate to reach out!</p> -->

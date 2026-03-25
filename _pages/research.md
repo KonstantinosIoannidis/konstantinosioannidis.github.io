@@ -36,16 +36,22 @@ author_profile: true
         (with Zheng Li)
     </li> -->
     <li>
-        <a href="/research/donations">
+        <a href="/research/charities">
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
         <i>Data collection in progress</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
     </li>
     <li>
-        <a href="/research/fakebnb">
+        <a href="/research/fairbnb">
         <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
         <i>Data collection in progress</i>
         (with Noriko Amano-Patiño and James Morris)
+    </li>
+    <li>
+        <a href="/research/colleges">
+        <b>Choice set structure and donation decisions: A field experiment</b></a>
+        <i>Data collection in progress</i> 
+        (with Eriko Yamakuma and Atiyeh Yeganloo)
     </li>
     <li>
         <a href="/research/kme">
