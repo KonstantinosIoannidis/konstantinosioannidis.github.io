@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- Check <a href="/coauthors">a list of my coauthors</a>. -->
+
 <h2>Working papers</h2>
 <ul>
     <li>
