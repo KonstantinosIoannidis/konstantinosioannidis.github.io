@@ -14,7 +14,7 @@ author_profile: true
     <li>
         <a href="/research/mig">
         <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        <i>Cambridge Working Papers in Economics</i>
+        <i>Under review</i>
         (with Peter Bossaerts, Robert Woods, and Nitin Yadav)
     </li>
     <li>
@@ -31,12 +31,6 @@ author_profile: true
 
 <h2>Work in progress</h2>
 <ul>
-    <!-- <li>
-        <a href="/research/satisficing">
-        <b>Stuck or satisfied? The role of complexity and information signals on stopping times in difficult financial decisions</b></a>
-        <i>grant proposal submitted to British Academy/Leverhulme Small Research Grants</i> 
-        (with Zheng Li)
-    </li> -->
     <li>
         <a href="/research/charities">
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
@@ -49,22 +43,16 @@ author_profile: true
         <i>Data collection in progress</i>
         (with Noriko Amano-Patiño and James Morris)
     </li>
-    <li>
+    <!-- <li>
         <a href="/research/colleges">
         <b>Choice set structure and donation decisions: A field experiment</b></a>
         <i>Data collection in progress</i> 
         (with Eriko Yamakuma and Atiyeh Yeganloo)
-    </li>
+    </li> -->
     <li>
         <a href="/research/kme">
         <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
         <i>Draft under preparation</i>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
     </li>
-    <!-- <li>
-        <a href="/research/pgg">
-        <b>Monetary vs. hypothetical incentives: The case of public good games without and with punishment</b></a>
-        <i>Draft under preparation</i>
-        (with Michalis Drouvelis and Steffen Kallbekken)
-    </li> -->
 </ul>
