@@ -14,8 +14,8 @@ author_profile: true
     <li>
         <a href="/research/mig">
         <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        <i>Under review</i>
         (with Peter Bossaerts, Robert Woods, and Nitin Yadav)
+        <i>Under review</i>
     </li>
     <li>
         <a href="/research/habits">
@@ -34,14 +34,14 @@ author_profile: true
     <li>
         <a href="/research/charities">
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
-        <i>Data collection in progress</i> 
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
+        <i>Data collection in progress</i> 
     </li>
     <li>
         <a href="/research/fairbnb">
         <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
-        <i>Data collection in progress</i>
         (with Noriko Amano-Patiño and James Morris)
+        <i>Data collection in progress</i>
     </li>
     <!-- <li>
         <a href="/research/colleges">
@@ -52,7 +52,7 @@ author_profile: true
     <li>
         <a href="/research/kme">
         <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
-        <i>Draft under preparation</i>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
+        <i>Draft under preparation</i>
     </li>
 </ul>
