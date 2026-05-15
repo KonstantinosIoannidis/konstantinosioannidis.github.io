@@ -22,12 +22,12 @@ Education
 
 Academic appointments (primary)
 -----
-* <img src="/images/institutions/cambridge.png" width="40" height="40"> 2023-: Postdoctoral Researcher, Economics Faculty, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>
-* <img src="/images/institutions/birmingham.png" width="40" height="40"> 2022-2023: Lab Manager, Birmingham Experimental Economics Laboratory (BEEL), <a href="https://www.birmingham.ac.uk/schools/business/departments/economics" target="_blank">University of Birmingham</a>
+* <img src="/images/institutions/cambridge.png" width="40" height="40"> 2023-: Postdoctoral Researcher, Faculty of Economics, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>
+* <img src="/images/institutions/birmingham.png" width="40" height="40"> 2022-2023: Lab Manager, Department of Economics, <a href="https://www.birmingham.ac.uk/schools/business/departments/economics" target="_blank">University of Birmingham</a>
 
 Academic appointments (secondary)
 -----
-* <img src="/images/institutions/pittsburgh.png" width="40" height="40"> 2025: Visiting research scholar, Department of Economics, <a href="https://www.econ.pitt.edu/" target="_blank">University of Pittsburgh</a>  
-* <img src="/images/institutions/carnegie_mellon.png" width="40" height="40"> 2025: Visiting research scholar, Tepper School of Business, <a href="https://www.cmu.edu/tepper/" target="_blank">Carnegie Mellon University</a>
+* <img src="/images/institutions/pittsburgh.png" width="40" height="40"> 2025: Visiting Researcher, Department of Economics, <a href="https://www.econ.pitt.edu/" target="_blank">University of Pittsburgh</a>  
+* <img src="/images/institutions/carnegie_mellon.png" width="40" height="40"> 2025: Visiting Researcher, Tepper School of Business, <a href="https://www.cmu.edu/tepper/" target="_blank">Carnegie Mellon University</a>
 * <img src="/images/institutions/queens.png" width="40" height="40"> 2024-2026: Rokos Postdoctoral Research Associate, <a href="https://www.queens.cam.ac.uk/" target="_blank">Queens' College Cambridge</a>
 * <img src="/images/institutions/cambridge.png" width="40" height="40"> 2023-2026: Visiting Researcher, Cambridge Cybercrime Centre, <a href="https://www.cambridgecybercrime.uk/" target="_blank">University of Cambridge</a>

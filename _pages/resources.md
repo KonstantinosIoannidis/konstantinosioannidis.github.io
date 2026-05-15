@@ -20,7 +20,7 @@ Journals (for experimental economists but not only)
 * <img src="/images/resources/exec.jpg" width="40" height="40"> <a href="https://www.cambridge.org/core/journals/experimental-economics" target="_blank">Experimental Economics</a>
 * <img src="/images/resources/geb.jpg" width="40" height="40"> <a href="https://www.sciencedirect.com/journal/games-and-economic-behavior" target="_blank">Games and Economic Behavior</a>
 * <img src="/images/resources/jbee.jpg" width="40" height="40"> <a href="https://www.sciencedirect.com/journal/journal-of-behavioral-and-experimental-economics" target="_blank">Journal of Behavioral and Experimental Economics</a>
-* <img src="/images/resources/jebo.jpg" width="40" height="40"> <a href="https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization" target="_blank">Journal of Economic Behavior and Organisation</a>
+<!-- * <img src="/images/resources/jebo.jpg" width="40" height="40"> <a href="https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization" target="_blank">Journal of Economic Behavior and Organisation</a> -->
 
 Interesting links
 -----
