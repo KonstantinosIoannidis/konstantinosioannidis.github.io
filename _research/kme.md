@@ -20,4 +20,4 @@ abstract: "Conventional wisdom suggests that a precondition for innovation is su
 presented: "2<sup>nd</sup> summer school on Cognitive Foundations of Decision-Making (Ghent, 2025), 2<sup>nd</sup> Annual Conference of the Network of the UK-Based Experimental and Behavioural Economists (Sheffield, 2025), 15<sup>th</sup> Society for Experimental Finance Conference (Maastricht, 2025), University of Vienna Behavioral/Experimental Seminar (Vienna, 2024), 14<sup>th</sup> Society for Experimental Finance Conference (Stavanger, 2024)"
 ---
 
-![Award photo](/images/vernon_smith_award.jpeg)
+![Award photo](/files/images/vernon_smith_award.jpeg)
