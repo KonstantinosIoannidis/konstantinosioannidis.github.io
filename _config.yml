@@ -13,9 +13,9 @@ title                    : "Konstantinos Ioannidis"
 title_separator          : "-"
 name                     : &name "Konstantinos Ioannidis"
 description              : &description "Konstantinos Ioannidis's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://konstantinosioannidis.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://konstantinosioannidis.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "KonstantinosIoannidis/konstantinos.github.io"
+repository               : "KonstantinosIoannidis/konstantinosioannidis.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
