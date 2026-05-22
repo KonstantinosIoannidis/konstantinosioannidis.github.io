@@ -1,5 +1,5 @@
 ---
-title: "Markets or Patents? A Comparative Study on Incentivising Collective Innovation"
+title: "Economic oracles: How markets reveal optimal solutions to complex problems"
 authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
 collection: research
 category: progress

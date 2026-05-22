@@ -51,7 +51,7 @@ author_profile: true
     </li> -->
     <li>
         <a href="/research/kme">
-        <b>Markets or patents? A comparative study on incentivising collective innovation</b></a>
+        <b>Economic oracles: How markets reveal optimal solutions to complex problems</b></a>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
         <i>Draft under preparation</i>
     </li>
