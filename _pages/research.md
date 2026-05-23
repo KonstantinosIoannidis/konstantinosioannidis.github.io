@@ -24,8 +24,8 @@ author_profile: true
     </li>
     <!-- <li>
         <a href="/research/whistleblowing">
-        <b>Whistleblowing and competition</b></a>
-        <i>Preparing for submission</i>
+        <b>The sound of silence: Does competition decrease whistleblowing? Evidence from a preregistered experiment</b></a>
+        <i>Under review</i>
     </li> -->
 </ul>
 
