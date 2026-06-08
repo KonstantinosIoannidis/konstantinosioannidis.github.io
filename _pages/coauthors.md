@@ -28,7 +28,7 @@ redirect_from:
   </li>
   <li>
     <a href="https://sites.google.com/site/hamidehmohtashamiborzadaran" target="_blank">Hamideh Mohtashami Borzadaran</a>,
-      <i>University of Birmingham</i>
+      <i>University College London</i>
   </li>
   <li>
     <a href="https://www.econ.cam.ac.uk/people/postgraduates/james-morris" target="_blank">James Morris</a>,

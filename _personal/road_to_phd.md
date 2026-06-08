@@ -18,7 +18,7 @@ permalink: /personal/road_to_phd
     <em>On top of the (now removed) "I amsterdam" sign in front of Rijksmuseum, 01:30, 10 July, 2017</em>
 </p>
 
-<p align="justify">I finished my PhD in May of 2024 after a long (honestly very long) journey. During the typical congratulations/roasting after the PhD defense, my supedrvisors provided seven conjectures of why it took me so long.</p>
+<p align="justify">I finished my PhD in May of 2024 after a long (honestly very long) journey. During the typical congratulations/roasting after the PhD defense, my supervisors provided seven conjectures of why it took me so long.</p>
 <ol>
     <li>Long educational warming-up (guilty as charged; took some parallel steps before PhD)</li>
     <li>Lacked practical skills in analysing data (guilty as charged; started with mostly theoretical background)</li>

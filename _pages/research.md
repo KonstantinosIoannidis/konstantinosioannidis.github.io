@@ -41,7 +41,7 @@ author_profile: true
         <a href="/research/fairbnb">
         <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
         (with Noriko Amano-Patiño and James Morris)
-        <i>Data collection in progress</i>
+        <i>Data collection completed</i>
     </li>
     <!-- <li>
         <a href="/research/colleges">
