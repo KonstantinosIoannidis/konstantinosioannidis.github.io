@@ -22,11 +22,11 @@ author_profile: true
         <b>Habitual communication</b></a>
         <i>Under review</i>
     </li>
-    <!-- <li>
+    <li>
         <a href="/research/whistleblowing">
         <b>The sound of silence: Does competition decrease whistleblowing? Evidence from a preregistered experiment</b></a>
-        <i>Under review</i>
-    </li> -->
+        <i>R&R at Journal of Behavioral and Experimental Economics</i>
+    </li>
 </ul>
 
 <h2>Work in progress</h2>

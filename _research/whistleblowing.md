@@ -8,7 +8,7 @@ permalink: /research/whistleblowing
 date: 2024-07-06
 # venue: 'Journal of Behavioral and Experimental Economics'
 paperurl: '/files/research/whistleblowing.pdf'
-stage: "Under review at Journal of Behavioral and Experimental Economics"
+stage: "R & R at Journal of Behavioral and Experimental Economics"
 # citation: 'Ioannidis, K. (2026). The sound of silence: Does competition decrease whistleblowing? Evidence from a preregistered experiment. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Whistleblowing_JBEE"
