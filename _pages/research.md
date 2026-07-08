@@ -43,16 +43,16 @@ author_profile: true
         (with Noriko Amano-Patiño and James Morris)
         <i>Data collection completed</i>
     </li>
-    <!-- <li>
-        <a href="/research/colleges">
-        <b>Choice set structure and donation decisions: A field experiment</b></a>
-        <i>Data collection in progress</i> 
-        (with Eriko Yamakuma and Atiyeh Yeganloo)
-    </li> -->
     <li>
         <a href="/research/kme">
         <b>Economic oracles: How markets reveal optimal solutions to complex problems</b></a>
         (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
         <i>Draft under preparation</i>
+    </li>
+    <li>
+        <a href="/research/flexi_premium">
+        <b>What do donors value in flexible giving? Cause scope, allocation patterns, and charitable impact</b></a>
+        <i>Data collection in progress</i> 
+        (with Eriko Yamakuma and Atiyeh Yeganloo)
     </li>
 </ul>
