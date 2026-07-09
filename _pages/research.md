@@ -52,7 +52,7 @@ author_profile: true
     <li>
         <a href="/research/flexi_premium">
         <b>What do donors value in flexible giving? Cause scope, allocation patterns, and charitable impact</b></a>
-        <i>Data collection in progress</i> 
         (with Eriko Yamakuma and Atiyeh Yeganloo)
+        <i>Data collection in progress</i> 
     </li>
 </ul>
