@@ -35,13 +35,13 @@ author_profile: true
         <a href="/research/charities">
         <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
         (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
-        <i>Data collection in progress</i> 
+        <i>Draft under preparation</i>
     </li>
     <li>
         <a href="/research/fairbnb">
         <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
         (with Noriko Amano-Patiño and James Morris)
-        <i>Data collection completed</i>
+        <i>Draft under preparation</i>
     </li>
     <li>
         <a href="/research/kme">
