@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-Here is a collection of informal blog posts about my interests and hobbies.
+Here is a collection of informal posts, personal interests, and useful academic resources.
 
 <ul>
   <li>
@@ -25,5 +25,9 @@ Here is a collection of informal blog posts about my interests and hobbies.
   <li>
     <a href="/personal/sports">
         <b>Recreational sports I enjoy</b></a>
+  </li>
+  <li>
+    <a href="/personal/resources">
+        <b>Useful academic resources</b></a>
   </li>
 </ul>
