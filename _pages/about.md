@@ -32,7 +32,7 @@ redirect_from:
 </p>
 
 <p align="justify">An overview of some of my research is below. This was my first time ever shooting a video!
-  <video width="600" height="400" controls>
+  <video width="800" height="auto" controls>
     <source src="/files/videos/lipne.mp4" type="video/mp4">
     Your browser does not support the video tag. Please try a different browser.
   </video>
