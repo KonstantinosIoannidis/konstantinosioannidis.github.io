@@ -1,24 +1,29 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks"
 permalink: /talks/
 author_profile: true
 ---
 
+{% assign categories = site.talk_category %}
 
-{% assign talks_by_year = site.talks | group_by_exp:"talk","talk.date | date: '%Y'" | sort: "name" | reverse %}
-<ul>
-  {% for year in talks_by_year %}
-    <li>
-      <strong>{{ year.name }}</strong>
-      <ul>
-        {% assign sorted_talks = year.items | sort: "date" | reverse %}
-        {% for post in sorted_talks %}
-          <li>
-            <em>{{ post.title }}</em>, {{ post.location_name }}, {{ post.date | date: "%B %-d" }}
-          </li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-</ul>
+{% for category in categories %}
+
+  {% assign talks = site.talks | where: "category", category[0] | sort: "date" | reverse %}
+
+  {% if talks.size > 0 %}
+
+    <h2>{{ category[1].title }} ({{ talks.size }})</h2>
+
+    <ul>
+    {% for post in talks %}
+      <li>
+        <i>{{ post.title | strip_html }}</i>
+        ({{ post.location | split: "," | first }}, {{ post.date | date: "%Y" }})
+      </li>
+    {% endfor %}
+    </ul>
+
+  {% endif %}
+
+{% endfor %}

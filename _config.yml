@@ -100,6 +100,17 @@ research_category:
   progress:
     title: 'Work in progress'
 
+# Talk Category - The following the list of talk categories and their headings
+talk_category:
+  seminars:
+    title: 'Invited talks and department seminars'
+  conferences:
+    title: 'Conference presentations'
+  workshops:
+    title: 'Summer schools and workshops'
+  keynotes:
+    title: 'Keynote addresses'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)

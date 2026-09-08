@@ -1,6 +1,7 @@
 ---
 title: "48<sup>th</sup> International Association for Research in Economic Psychology"
 collection: talks
+category: "conferences"
 research_id: "habits"
 type: "Habitual communication"
 permalink: /talks/2024_iarep

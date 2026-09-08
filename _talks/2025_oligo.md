@@ -1,6 +1,7 @@
 ---
 title: "13<sup>th</sup> Oligo Workshop"
 collection: talks
+category: "conferences"
 research_id: "whistleblowing"
 type: "Whistleblowing under competition"
 permalink: /talks/2025_oligo

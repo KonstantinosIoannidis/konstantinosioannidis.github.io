@@ -1,6 +1,7 @@
 ---
 title: "Economic Science Association European Meeting"
 collection: talks
+category: "conferences"
 research_id: "mig"
 type: "Heterogeneous cognitive effort restores general equilibrium when goods are indivisible: Theory and experimental test"
 permalink: /talks/2025_esa_europe
