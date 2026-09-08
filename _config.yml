@@ -38,13 +38,14 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=oYiMcNYAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-2858-4688"
+  orcid            : "https://orcid.org/0000-0003-2858-4688"
   semantic         : # URL
-  ssrn             : # "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3815751"
+  ssrn             : "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=3815751"
   pubmed           : # URL
   researchgate     : # https://www.researchgate.net/profile/Konstantinos-Ioannidis-10"
   scopus           : # "https://www.scopus.com/authid/detail.uri?authorId=57225147999"
   zotero           : # URL
+  webofscience     : "https://www.webofscience.com/wos/author/record/KUC-9259-2024"
 
 
   # Repositories and software development
