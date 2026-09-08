@@ -40,19 +40,20 @@ permalink: /talkmap/
 document.addEventListener("DOMContentLoaded", function () {
 
   const talks = [
-    {% for talk in site.talks %}
-      {% if talk.latitude and talk.longitude %}
-      {
-        title: {{ talk.title | jsonify }},
-        location: {{ talk.location | jsonify }},
-        country: {{ talk.country | jsonify }},
-        latitude: {{ talk.latitude }},
-        longitude: {{ talk.longitude }},
-        date: {{ talk.date | date: "%Y" | jsonify }}
-      },
-      {% endif %}
-    {% endfor %}
-  ];
+      {% for talk in site.talks %}
+        {% assign loc = talk.location | downcase %}
+        {% if talk.latitude and talk.latitude != "" and talk.longitude and talk.longitude != "" and loc != "online" %}
+        {
+          title: {{ talk.title | jsonify }},
+          location: {{ talk.location | jsonify }},
+          country: {{ talk.country | jsonify }},
+          latitude: {{ talk.latitude }},
+          longitude: {{ talk.longitude }},
+          date: {{ talk.date | date: "%Y" | jsonify }}
+        },
+        {% endif %}
+      {% endfor %}
+    ];
 
   const grouped = {};
 
