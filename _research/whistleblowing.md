@@ -1,6 +1,7 @@
 ---
 title: "The sound of silence: Does competition decrease whistleblowing? Evidence from a preregistered experiment"
 authors: "Konstantinos Ioannidis"
+coauthors: ""
 collection: research
 category: working
 permalink: /research/whistleblowing
@@ -13,6 +14,7 @@ stage: "R&R at Journal of Behavioral and Experimental Economics"
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 link_data: "https://github.com/KonstantinosIoannidis/Whistleblowing_JBEE"
 link_preregistration: "https://www.socialscienceregistry.org/trials/11051"
+summary: "Studies whether competition discourages individuals from reporting misconduct, using a preregistered lab experiment."
 abstract: "We investigate whether market competition suppresses employees’ willingness to report managerial misconduct, using a preregistered laboratory experiment with two participant pools (N = 240). In a setting where firms either operate independently or compete in a tournament for market revenue, managers choose between a productive task and breaking the law to double firm surplus at the expense of the public, while employees decide whether they would report the manager if the manager chose to break the law. At the aggregate level, competition does not significantly reduce employees’ conditional willingness to blow the whistle. Although manager lawbreaking increases directionally under competition, this is not accompanied by a statistically significant decline in employees’ stated willingness to report misconduct. Exploratory analyses suggest possible heterogeneity across participant pools for employee reporting but not for manager lawbreaking."
 keywords: "whistleblowing, market competition, corporate fraud, moral erosion, experiment"
 jel_codes: "C92, D63, D91, G33, K42, M14"

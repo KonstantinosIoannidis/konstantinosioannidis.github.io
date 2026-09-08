@@ -1,6 +1,7 @@
 ---
 title: "Economic oracles: How markets reveal optimal solutions to complex problems"
 authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
+coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan"
 collection: research
 category: progress
 permalink: /research/kme
@@ -14,6 +15,7 @@ funding: "Society for Experimental Finance ($4,000)"
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
 # link_preregistration: "https://www.socialscienceregistry.org/trials/6387"
+summary: "Studies whether markets can incentivise individuals to collectively discover solutions to complex problems that would be difficult to solve in isolation."
 abstract: "Conventional wisdom suggests that a precondition for innovation is sufficient incentive that the private benefits of innovation will justify the costs incurred by the inventor. Typically, this incentive is established through the acquisition of patents, which allow inventors to monopolise intellectual property for monetary gain. However, this restricts the circulation of new ideas and slows the pace of innovation. With an experiment, we test here the capacity of markets to overcome this shortcoming by incentivising individuals to collectively find solutions to a complex task that mirrors the complexity of producing innovations in the real world."
 # keywords: "habits, strategic information transmission, communication, experiment"
 # jel_codes: "C92, D01, D83, D91"

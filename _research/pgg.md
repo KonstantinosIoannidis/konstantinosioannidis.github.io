@@ -2,7 +2,7 @@
 title: "Monetary vs. hypothetical incentives: The case of public good games without and with punishment"
 authors: "Michalis Drouvelis, Konstantinos Ioannidis, Steffen Kallbekken"
 collection: research
-category: progress
+category: inactive
 permalink: /research/pgg
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06

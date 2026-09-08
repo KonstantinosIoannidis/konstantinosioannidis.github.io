@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Current research"
+title: "Research"
 permalink: /research/
 author_profile: true
 ---
@@ -11,48 +11,62 @@ author_profile: true
 
 <h2>Working papers</h2>
 <ul>
-    <li>
-        <a href="/research/mig">
-        <b>How computational complexity can restore general equilibrium in markets with indivisible goods</b></a>
-        (with Peter Bossaerts, Robert Woods, and Nitin Yadav)
-        <i>Under review</i>
-    </li>
-    <li>
-        <a href="/research/habits">
-        <b>Habitual communication</b></a>
-        <i>Under review</i>
-    </li>
-    <li>
-        <a href="/research/whistleblowing">
-        <b>The sound of silence: Does competition decrease whistleblowing? Evidence from a preregistered experiment</b></a>
-        <i>R&R at Journal of Behavioral and Experimental Economics</i>
-    </li>
+{% assign working_papers = site.research | where: "category", "working" %}
+
+{% for post in working_papers %}
+
+<li>
+  <a href="{{post.permalink}}">
+      <b>{{ post.title }}</b>
+  </a><br>
+  <i>{{ post.stage }}.</i>
+
+    {% if post.coauthors != "" %}
+    <br>
+    (with {{ post.coauthors }})
+    {% endif %}
+
+  <br>
+
+  {{ post.summary }}
+
+    {% if post.paperurl %}
+        <a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
+        </a>
+    {% endif %}
+
+</li>
+
+{% endfor %}
 </ul>
 
-<h2>Work in progress</h2>
+<h2>Working in progress</h2>
 <ul>
-    <li>
-        <a href="/research/charities">
-        <b>Is sharing caring? Disentangling prosociality from virtue signalling</b></a>
-        (with Hamideh Mohtashami Borzadaran and Johannes Lohse)
-        <i>Draft under preparation</i>
-    </li>
-    <li>
-        <a href="/research/fairbnb">
-        <b>The impact of qualitative reviews in online markets: An experiment on racial statistical discrimination</b></a>
-        (with Noriko Amano-Patiño and James Morris)
-        <i>Draft under preparation</i>
-    </li>
-    <li>
-        <a href="/research/kme">
-        <b>Economic oracles: How markets reveal optimal solutions to complex problems</b></a>
-        (with Hassan Andrabi, Peter Bossaerts, Robert Woods, and Nitin Yadan)
-        <i>Draft under preparation</i>
-    </li>
-    <li>
-        <a href="/research/flexi_premium">
-        <b>What do donors value in flexible giving? Cause scope, allocation patterns, and charitable impact</b></a>
-        (with Eriko Yamakuma and Atiyeh Yeganloo)
-        <i>Data collection in progress</i> 
-    </li>
+{% assign working_progress = site.research | where: "category", "progress" %}
+
+{% for post in working_progress %}
+
+<li>
+  <a href="{{post.permalink}}">
+      <b>{{ post.title }}</b>
+  </a>
+  <i>{{ post.stage }}.</i>
+
+    {% if post.coauthors != "" %}
+    <br>
+    (with {{ post.coauthors }})
+    {% endif %}
+
+  <br>
+
+  {{ post.summary }}
+
+    <!-- {% if post.paperurl %}
+        <a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
+        </a>
+    {% endif %} -->
+
+</li>
+
+{% endfor %}
 </ul>
