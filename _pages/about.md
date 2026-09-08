@@ -37,6 +37,3 @@ redirect_from:
     Your browser does not support the video tag. Please try a different browser.
   </video>
 </p>
-
-<!-- <p align="justify">Feel free to explore and get to know more about my <a href="/publications/">publications</a>, my <a href="/research/">current research</a>, check a more detailed <a href="/files/cv_ioannidis.pdf" target="_blank">CV</a>, or get to know what I <a href="/personal/">enjoy</a> doing outside of academia. If you're interested in collaborating on research, projects, or other initiatives, don't hesitate to reach out!
-</p> -->
