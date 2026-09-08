@@ -1,11 +1,8 @@
 ---
-layout: archive
 title: "Useful resources"
+collection: personal
 permalink: /personal/resources/
-author_profile: true
 ---
-
-{% include base_path %}
 
 Academic associations (for experimental economists but not only)
 -----
