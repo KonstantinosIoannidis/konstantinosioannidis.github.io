@@ -88,11 +88,11 @@ publication_category:
   books:
     title: 'Books'
   journals:
-    title: 'Journal Articles'    
-  consortium:
-    title: 'Consortium Articles'   
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  consortium:
+    title: 'Consortium Articles'   
 
 # Research Category - The following the list of research categories and their headings
 research_category:
@@ -111,6 +111,13 @@ talk_category:
     title: 'Summer schools and workshops'
   keynotes:
     title: 'Keynote addresses'
+
+# Teaching Category - The following the list of research categories and their headings
+teaching_category:
+  graduate:
+    title: 'Graduate courses'
+  undergraduate:
+    title: 'Undergraduate courses'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

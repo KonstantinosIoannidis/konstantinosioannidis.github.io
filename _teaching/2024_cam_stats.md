@@ -1,7 +1,7 @@
 ---
 title: "Mathematics and Statistics for Economists"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2024_cam_stats
 venue: "University of Cambridge"
 date: 2024-01-01

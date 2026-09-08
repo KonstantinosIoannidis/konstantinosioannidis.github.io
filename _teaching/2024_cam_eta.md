@@ -1,7 +1,7 @@
 ---
 title: "General Equilibrium Theory"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2024_cam_eta
 venue: "University of Cambridge"
 date: 2024-01-01

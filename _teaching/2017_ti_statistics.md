@@ -1,7 +1,7 @@
 ---
 title: "Statistics"
 collection: teaching
-type: "Graduate"
+category: "graduate"
 permalink: /teaching/2017_ti_statistics
 venue: "Tinbergen Institute"
 date: 2017-01-01

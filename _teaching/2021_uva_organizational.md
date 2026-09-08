@@ -1,7 +1,7 @@
 ---
 title: "Organizational Economics"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2021_uva_organizational
 venue: "University of Amsterdam"
 date: 2021-01-01

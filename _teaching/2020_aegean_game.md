@@ -1,7 +1,7 @@
 ---
 title: "Game Theory"
 collection: teaching
-type: "Graduate"
+category: "graduate"
 permalink: /teaching/2020_aegean_game
 venue: "University of the Aegean"
 date: 2020-01-01

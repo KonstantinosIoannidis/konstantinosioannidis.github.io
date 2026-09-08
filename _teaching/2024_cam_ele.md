@@ -1,7 +1,7 @@
 ---
 title: "Economics Law and Ethics"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2024_cam_ele
 venue: "University of Cambridge"
 date: 2024-01-01

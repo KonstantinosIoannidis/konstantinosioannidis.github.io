@@ -1,7 +1,7 @@
 ---
 title: "Economics of Markets and Organizations"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2020_uva_emo
 venue: "University of Amsterdam"
 date: 2020-01-01

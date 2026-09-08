@@ -7,9 +7,76 @@ author_profile: true
 
 {% include base_path %}
 
-Click on any course to see more information about the syllabus, and teaching evaluations.
+<p>
+  Click on any course for information on the syllabus, learning objectives, and teaching evaluations.
+</p>
 
-<h2>Graduate courses</h2>
+{% assign categories = site.teaching_category %}
+
+{% for category in categories %}
+
+  {% assign level_courses = site.teaching | where: "category", category[0] %}
+
+  {% if level_courses.size > 0 %}
+
+    <h2>{{ category[1].title }}</h2>
+
+    {% assign level_courses_sorted = level_courses | sort: "date" | reverse %}
+    {% assign venues = level_courses_sorted | map: "venue" | uniq %}
+
+    {% for venue in venues %}
+
+      {% assign venue_courses = level_courses | where: "venue", venue | sort: "date" | reverse %}
+
+      {% assign start_years = "" %}
+      {% assign end_years = "" %}
+
+      {% for post in venue_courses %}
+        {% if post.date_range %}
+          {% assign parts = post.date_range | replace: " ", "" | split: "-" %}
+          {% assign s_yr = parts[0] %}
+          {% if parts[1] %}
+            {% assign e_yr = parts[1] %}
+          {% else %}
+            {% assign e_yr = parts[0] %}
+          {% endif %}
+        {% else %}
+          {% assign s_yr = post.date | date: "%Y" %}
+          {% assign e_yr = s_yr %}
+        {% endif %}
+
+        {% if start_years == "" %}
+          {% assign start_years = s_yr %}
+          {% assign end_years = e_yr %}
+        {% else %}
+          {% assign start_years = start_years | append: "," | append: s_yr %}
+          {% assign end_years = end_years | append: "," | append: e_yr %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign min_year = start_years | split: "," | sort | first %}
+      {% assign max_year = end_years | split: "," | sort | last %}
+
+      <div>
+        {{ venue }}
+        ({% if min_year == max_year %}{{ min_year }}{% else %}{{ min_year }}-{{ max_year }}{% endif %})
+      </div>
+
+      <ul style="margin-top: 0.2em; margin-bottom: 1em;">
+      {% for post in venue_courses %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title | strip_html }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}
+
+<!-- <h2>Graduate courses</h2>
 <ul>
   <li>University of Birmingham (2022-2023)</li>
   <ul>
@@ -58,7 +125,7 @@ Click on any course to see more information about the syllabus, and teaching eva
   <ul>
     <li>22 Bachelor theses</li>
   </ul>
-</ul>
+</ul> -->
 
 <h2>(Biased selection of) student evaluation comments</h2>
 <ul>

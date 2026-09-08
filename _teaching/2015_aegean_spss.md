@@ -1,7 +1,7 @@
 ---
 title: "Statistical Software and Data Analysis"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2015_aegean_spss
 venue: "University of the Aegean"
 date: 2015-01-01

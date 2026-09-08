@@ -7,66 +7,31 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Check <a href="/coauthors">a list of my coauthors</a>. -->
+{% assign categories = site.research_category %}
 
-<h2>Working papers</h2>
-<ul>
-{% assign working_papers = site.research | where: "category", "working" %}
+{% for category in categories %}
 
-{% for post in working_papers %}
+{% assign papers = site.research | where: "category", category[0] %}
 
-<li>
-  <a href="{{post.permalink}}">
-      <b>{{ post.title }}</b>
-  </a><br>
-  <i>{{ post.stage }}.</i>
+{% if papers.size > 0 %}
 
-    {% if post.coauthors != "" %}
+  <h2>{{ category[1].title }}</h2>
+
+  <ul>
+  {% for post in papers %}
+  <li>
+    <a href="{{ post.permalink | default: post.url }}"><b>{{ post.title }}</b></a><br>
+    {% if post.stage %}<i>{{ post.stage }}.</i>{% endif %}
+    {% if post.coauthors != nil and post.coauthors != "" %}
+    <br>(with {{ post.coauthors }}){% endif %}
     <br>
-    (with {{ post.coauthors }})
-    {% endif %}
-
-  <br>
-
-  {{ post.summary }}
-
+    {{ post.summary }}
     {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
-        </a>
+      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}</a>
     {% endif %}
+  </li>
+  {% endfor %}
+  </ul>
 
-</li>
-
+{% endif %}
 {% endfor %}
-</ul>
-
-<h2>Working in progress</h2>
-<ul>
-{% assign working_progress = site.research | where: "category", "progress" %}
-
-{% for post in working_progress %}
-
-<li>
-  <a href="{{post.permalink}}">
-      <b>{{ post.title }}</b>
-  </a>
-  <i>{{ post.stage }}.</i>
-
-    {% if post.coauthors != "" %}
-    <br>
-    (with {{ post.coauthors }})
-    {% endif %}
-
-  <br>
-
-  {{ post.summary }}
-
-    <!-- {% if post.paperurl %}
-        <a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
-        </a>
-    {% endif %} -->
-
-</li>
-
-{% endfor %}
-</ul>

@@ -7,94 +7,38 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Journal articles</h2>
-<ul>
+{% assign categories = site.publication_category %}
 
-{% assign journals = site.publications | where: "category", "journals" | sort: "date" | reverse %}
+{% for category in categories %}
 
-{% for post in journals %}
+{% assign papers = site.publications | where: "category", category[0] | sort: "date" | reverse %}
 
-<li>
+{% if papers.size > 0 %}
 
-  <a href="{{post.permalink}}">
-      <b>{{ post.title }}</b>
-  </a>
-  <i>{{ post.venue }}</i>, <b>{{ post.date | date: "%Y" }}</b>
+  <h2>{{ category[1].title }}</h2>
 
-  {% if post.coauthors != "" %}
-  <br>
-  (with {{ post.coauthors }})
-  {% endif %}
+  <ul>
+  {% for post in papers %}
+  <li>
+    <a href="{{ post.permalink | default: post.url }}"><b>{{ post.title }}</b></a><br>
+    {% if post.venue %}<i>{{ post.venue }}</i>, {% endif %}
+    {% if post.date %}<b>{{ post.date | date: "%Y" }}</b>{% endif %}
 
-  {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
-      </a>
-  {% endif %}
+    {% if post.coauthors != nil and post.coauthors != "" %}
+      <br>
+      {% if category[0] == "consortium" %}
+        (as part of the {{ post.coauthors }})
+      {% else %}
+        (with {{ post.coauthors }})
+      {% endif %}
+    {% endif %}
 
-</li>
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}</a>
+    {% endif %}
+  </li>
+  {% endfor %}
+  </ul>
 
+{% endif %}
 {% endfor %}
-
-</ul>
-
-
-<h2>Conference proceedings</h2>
-<ul>
-
-{% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
-
-{% for post in conferences %}
-
-<li>
-
-  <a href="{{post.permalink}}">
-      <b>{{ post.title }}</b>
-  </a>
-  <i>{{ post.venue }}</i>, <b>{{ post.date | date: "%Y" }}</b>
-
-  {% if post.coauthors != "" %}
-  <br>
-  (with {{ post.coauthors }})
-  {% endif %}
-
-  {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
-      </a>
-  {% endif %}
-
-</li>
-
-{% endfor %}
-
-</ul>
-
-
-<h2>Consortium articles</h2>
-<ul>
-
-{% assign consortium = site.publications | where: "category", "consortium" | sort: "date" | reverse %}
-
-{% for post in consortium %}
-
-<li>
-
-  <a href="{{post.permalink}}">
-      <b>{{ post.title }}</b>
-  </a>
-  <i>{{ post.venue }}</i>, <b>{{ post.date | date: "%Y" }}</b>
-
-  {% if post.coauthors != "" %}
-  <br>
-  (as part of the {{ post.coauthors }})
-  {% endif %}
-
-  {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
-      </a>
-  {% endif %}
-
-</li>
-
-{% endfor %}
-
-</ul>

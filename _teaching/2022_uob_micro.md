@@ -1,7 +1,7 @@
 ---
 title: "Microeconomics"
 collection: teaching
-type: "Graduate"
+category: "graduate"
 permalink: /teaching/2022_uob_micro
 venue: "University of Birmingham"
 date: 2022-01-01

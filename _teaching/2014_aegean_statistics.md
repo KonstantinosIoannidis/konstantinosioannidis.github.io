@@ -1,7 +1,7 @@
 ---
 title: "Statistics I - Estimation Methods"
 collection: teaching
-type: "Undergraduate"
+category: "undergraduate"
 permalink: /teaching/2014_aegean_statistics
 venue: "University of the Aegean"
 date: 2014-01-01
