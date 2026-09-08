@@ -4,6 +4,7 @@ authors: "Konstantinos Ioannidis"
 coauthors: ""
 collection: research
 category: working
+research_id: "whistleblowing"
 permalink: /research/whistleblowing
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
@@ -18,5 +19,5 @@ summary: "Studies whether competition discourages individuals from reporting mis
 abstract: "We investigate whether market competition suppresses employees’ willingness to report managerial misconduct, using a preregistered laboratory experiment with two participant pools (N = 240). In a setting where firms either operate independently or compete in a tournament for market revenue, managers choose between a productive task and breaking the law to double firm surplus at the expense of the public, while employees decide whether they would report the manager if the manager chose to break the law. At the aggregate level, competition does not significantly reduce employees’ conditional willingness to blow the whistle. Although manager lawbreaking increases directionally under competition, this is not accompanied by a statistically significant decline in employees’ stated willingness to report misconduct. Exploratory analyses suggest possible heterogeneity across participant pools for employee reporting but not for manager lawbreaking."
 keywords: "whistleblowing, market competition, corporate fraud, moral erosion, experiment"
 jel_codes: "C92, D63, D91, G33, K42, M14"
-presented: "13<sup>th</sup> Oligo Workshop (Cambridge, 2025), 10<sup>th</sup> Annual Conference on ``Contests: Theory and Evidence'' (Reading, 2024), 3<sup>rd</sup> BUE-EBEL International Conference in Behavioural and Experimental Economics (Cairo, 2023), Economic Science Association World Meeting (Lyon, 2023)"
+# presented: "13<sup>th</sup> Oligo Workshop (Cambridge, 2025), 10<sup>th</sup> Annual Conference on ``Contests: Theory and Evidence'' (Reading, 2024), 3<sup>rd</sup> BUE-EBEL International Conference in Behavioural and Experimental Economics (Cairo, 2023), Economic Science Association World Meeting (Lyon, 2023)"
 ---

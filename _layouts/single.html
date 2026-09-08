@@ -45,7 +45,17 @@ layout: default
             {% if page.funding %}<p align="justify"><b><i>Funding</i></b>: {{ page.funding }} </p>{% endif %}
             {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
             {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
-            {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
+            {% assign related_talks = site.talks | where: "research_id", page.research_id | sort: "date" | reverse %}
+              {% if related_talks.size > 0 %}
+              <p align="justify">
+              <b><i>Presented at</i></b>:
+
+              {% for talk in related_talks %}
+                {{ talk.title | strip_html }} ({{ talk.location }}, {{ talk.date | date: "%Y" }}){% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+              </p>
+            {% endif %}
+            <!-- {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %} -->
           {% elsif page.collection == 'publications' %}
             <p align="justify"><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
             {% if page.authors %}<p align="justify"><b><i>Authors</i></b>: {{ page.authors }} </p>{% endif %}
@@ -53,8 +63,19 @@ layout: default
             {% if page.funding %}<p align="justify"><b><i>Funding</i></b>: {{ page.funding }} </p>{% endif %}
             {% if page.keywords %}<p align="justify"><b><i>Keywords</i></b>: {{ page.keywords }} </p>{% endif %}
             {% if page.jel_codes %}<p align="justify"><b><i>JEL codes</i></b>: {{ page.jel_codes }} </p>{% endif %}
-            {% if page.presented %}<p align="justify"><b><i>Presented at</i></b>: {{ page.presented }} </p>{% endif %}
-          {% elsif page.venue and page.date %}
+            {% if page.category != "consortium" %}
+              {% assign related_talks = site.talks | where: "research_id", page.research_id | sort: "date" | reverse %}
+                {% if related_talks.size > 0 %}
+                <p align="justify">
+                <b><i>Presented at</i></b>:
+
+                {% for talk in related_talks %}
+                  {{ talk.title | strip_html }} ({{ talk.location }}, {{ talk.date | date: "%Y" }}){% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+                </p>
+              {% endif %}
+            {% endif %}
+            {% elsif page.venue and page.date %}
             <p align="justify"><b><i>Published</b></i>: {{ page.venue }}, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>

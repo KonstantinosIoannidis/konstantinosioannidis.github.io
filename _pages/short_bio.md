@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-For a detailed CV feel free to look <a href="/files/cv_ioannidis.pdf" target="_blank">here</a>.
-
 Education
 -----
 * <img src="/files/images/institutions/amsterdam.png" width="40" height="40"> 2024: Ph.D in Economics, <a href="https://ase.uva.nl/" target="_blank">University of Amsterdam</a>

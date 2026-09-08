@@ -4,6 +4,7 @@ authors: "Konstantinos Ioannidis"
 coauthors: ""
 collection: research
 category: working
+research_id: "habits"
 permalink: /research/habits
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
@@ -18,5 +19,5 @@ summary: "Studies whether communication strategies become habitual and persist e
 abstract: "Standard economic theory predicts that the informativeness of strategic communication is determined solely by the incentive alignment between senders and receivers. However, experiments consistently find overcommunication. We propose that this deviation arises from communication habits formed in familiar environments carrying over to unfamiliar environments. A behavioural model yields sharp predictions: (i) habits from aligned environments generate overcommunication, while habits from conflicting environments generate undercommunication, and (ii) reliance on communication habits depends on the frequency of interacting in an unfamiliar environment. We test those predictions with a preregistered laboratory experiment (N=320). We analyse individual decisions to provide suggestive evidence on the mechanisms."
 keywords: "habits, strategic information transmission, communication, experiment"
 jel_codes: "C72, C92, D83, D91"
-presented: "39<sup>th</sup> European Economic Association Meeting (Rotterdam, 2024), 48<sup>th</sup> International Association for Research in Economic Psychology Conference (Dundee, 2024), 13<sup>th</sup> Southern Europe Experimental Team´s Meeting (Malaga, 2024), Birmingham Behavioural Economics Workshop (Birmingham, 2022), CBESS-CeDEx-CREED Annual Meeting (online, 2021), Economic Science Association World Meeting (online, 2021), CBESS-CeDEx CREED Annual Meeting (online, 2020)"
+# presented: "39<sup>th</sup> European Economic Association Meeting (Rotterdam, 2024), 48<sup>th</sup> International Association for Research in Economic Psychology Conference (Dundee, 2024), 13<sup>th</sup> Southern Europe Experimental Team´s Meeting (Malaga, 2024), Birmingham Behavioural Economics Workshop (Birmingham, 2022), CBESS-CeDEx-CREED Annual Meeting (online, 2021), Economic Science Association World Meeting (online, 2021), CBESS-CeDEx CREED Annual Meeting (online, 2020)"
 ---

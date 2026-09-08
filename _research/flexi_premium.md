@@ -4,6 +4,7 @@ authors: "Konstantinos Ioannidis, Eriko Yamakuma and Atiyeh Yeganloo"
 coauthors: "Eriko Yamakuma and Atiyeh Yeganloo"
 collection: research
 category: progress
+research_id: "flexi_premium"
 permalink: /research/flexi_premium
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06

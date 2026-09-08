@@ -3,6 +3,7 @@ title: "Monetary vs. hypothetical incentives: The case of public good games with
 authors: "Michalis Drouvelis, Konstantinos Ioannidis, Steffen Kallbekken"
 collection: research
 category: inactive
+research_id: "pgg"
 permalink: /research/pgg
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
@@ -16,5 +17,5 @@ link_preregistration: "https://aspredicted.org/RZY_PK9"
 abstract: "Whether incentives matter for experimental research is one of the main methodological differences between economics and psychology. We study the effect of incentives on eliciting social preferences. To do so, we run two public good game experiments, one standard and one with punishment, varying whether the game is incentivised or hypothetical. We find that incentives affect behaviour in a standard public good game, but not in a public good game with punishment."
 keywords: "public goods, voluntary contributions, incentives, experiment"
 # jel_codes: "C92, D01, D83, D91"
-presented: "Economic Science Association European Meeting (Bologna, 2023)"
+# presented: "Economic Science Association European Meeting (Bologna, 2022)"
 ---

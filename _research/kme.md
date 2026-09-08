@@ -4,6 +4,7 @@ authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods,
 coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan"
 collection: research
 category: progress
+research_id: "kme"
 permalink: /research/kme
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
@@ -19,7 +20,7 @@ summary: "Studies whether markets can incentivise individuals to collectively di
 abstract: "Conventional wisdom suggests that a precondition for innovation is sufficient incentive that the private benefits of innovation will justify the costs incurred by the inventor. Typically, this incentive is established through the acquisition of patents, which allow inventors to monopolise intellectual property for monetary gain. However, this restricts the circulation of new ideas and slows the pace of innovation. With an experiment, we test here the capacity of markets to overcome this shortcoming by incentivising individuals to collectively find solutions to a complex task that mirrors the complexity of producing innovations in the real world."
 # keywords: "habits, strategic information transmission, communication, experiment"
 # jel_codes: "C92, D01, D83, D91"
-presented: "2<sup>nd</sup> summer school on Cognitive Foundations of Decision-Making (Ghent, 2025), 2<sup>nd</sup> Annual Conference of the Network of the UK-Based Experimental and Behavioural Economists (Sheffield, 2025), 15<sup>th</sup> Society for Experimental Finance Conference (Maastricht, 2025), University of Vienna Behavioral/Experimental Seminar (Vienna, 2024), 14<sup>th</sup> Society for Experimental Finance Conference (Stavanger, 2024)"
+# presented: "2<sup>nd</sup> summer school on Cognitive Foundations of Decision-Making (Ghent, 2025), 2<sup>nd</sup> Annual Conference of the Network of the UK-Based Experimental and Behavioural Economists (Sheffield, 2025), 15<sup>th</sup> Society for Experimental Finance Conference (Maastricht, 2025), University of Vienna Behavioral/Experimental Seminar (Vienna, 2024), 14<sup>th</sup> Society for Experimental Finance Conference (Stavanger, 2024)"
 ---
 
 ![Award photo](/files/images/vernon_smith_award.jpeg)
