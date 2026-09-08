@@ -31,7 +31,7 @@ author_profile: true
   {{ post.summary }}
 
     {% if post.paperurl %}
-        <a href="{{ page.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
+        <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}
         </a>
     {% endif %}
 
