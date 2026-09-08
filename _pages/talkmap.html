@@ -1,0 +1,146 @@
+---
+layout: single
+title: "Talk Map"
+permalink: /talkmap/
+---
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<style>
+#talkmap {
+  width: 100%;
+  height: 700px;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+}
+
+.leaflet-popup-content {
+  max-width: 350px;
+}
+
+.talk-location {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.talk-list {
+  margin: 0;
+  padding-left: 18px;
+}
+</style>
+
+<div id="talkmap"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const talks = [
+    {% for talk in site.talks %}
+      {% if talk.latitude and talk.longitude %}
+      {
+        title: {{ talk.title | jsonify }},
+        location: {{ talk.location | jsonify }},
+        country: {{ talk.country | jsonify }},
+        latitude: {{ talk.latitude }},
+        longitude: {{ talk.longitude }},
+        date: {{ talk.date | date: "%Y" | jsonify }}
+      },
+      {% endif %}
+    {% endfor %}
+  ];
+
+  const grouped = {};
+
+  talks.forEach(talk => {
+
+    const key =
+      (talk.location || "Unknown") +
+      "|" +
+      (talk.country || "Unknown");
+
+    if (!grouped[key]) {
+      grouped[key] = {
+        location: talk.location,
+        country: talk.country,
+        latitude: talk.latitude,
+        longitude: talk.longitude,
+        talks: []
+      };
+    }
+
+    grouped[key].talks.push(talk);
+  });
+
+  const map = L.map("talkmap", {
+    worldCopyJump: false,
+    minZoom: 2,
+    maxZoom: 8,
+    maxBounds: [
+      [-85, -180],
+      [85, 180]
+    ],
+    maxBoundsViscosity: 1.0
+  });
+
+  L.tileLayer(
+    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+      attribution: "&copy; OpenStreetMap contributors",
+      noWrap: true
+    }
+  ).addTo(map);
+
+  const bounds = [];
+
+  Object.values(grouped).forEach(place => {
+
+    bounds.push([
+      place.latitude,
+      place.longitude
+    ]);
+
+    let popup =
+      '<div class="talk-location">' +
+      place.location +
+      ', ' +
+      place.country +
+      '</div>';
+
+    popup += '<ul class="talk-list">';
+
+    place.talks.forEach(talk => {
+
+      popup +=
+        '<li>' +
+        talk.title +
+        ' (' +
+        talk.date +
+        ')</li>';
+    });
+
+    popup += '</ul>';
+
+    L.marker([
+      place.latitude,
+      place.longitude
+    ])
+    .addTo(map)
+    .bindPopup(popup);
+  });
+
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, {
+      padding: [50, 50],
+      maxZoom: 4
+    });
+  } else {
+    map.setView([20, 0], 2);
+  }
+
+});
+</script>
