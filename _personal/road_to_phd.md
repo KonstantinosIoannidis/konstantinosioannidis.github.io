@@ -8,7 +8,7 @@ permalink: /personal/road_to_phd
 
 <p align="justify">I moved to Thessaloniki and studied Mathematics in Aristotle University. During my military service (compulsory in Greece), I realized I prefered applying mathematics and decided to proceed my academic journey in that direction. In 2011, I went to Samos with an ambitious plan. I simultaneously enrolled in two programs at the University of the Aegean; a graduate program in "Mathematical Modeling in Physical Sciences and New Technologies" and an undergraduate program in "Statistics and Actuarial-Financial Mathematics". Despite the intensity of the parallel studies, I completed both and I reached my second revelation: I was even more interested in analyzing human behavior. I felt grateful for the tools I was exposed during my mathematical studies, but my path was about to change.</p>
 
-<p align="justify">The last piece of the puzzle was deciding the field to specialize in. Studying human behavior is exciting and spans multiple fields like economics, psychology and sociology. Motivated by my curiosity, I completed various MOOCs on Coursera in topics I was interested waiting to find my true passion. Thanks to a course on "Irrational Behavior" taught by Dan Ariely, I found my calling: Behavioral Economics was the field as it combined elements from all the areas I was interested in. I completed a second M.Sc. in "Statistics and Data Analysis" in Samos to sharpen my knowledge and I was ready! <a href="footnote_1">[1]</a>.</p>
+<p align="justify">The last piece of the puzzle was deciding the field to specialize in. Studying human behavior is exciting and spans multiple fields like economics, psychology and sociology. Motivated by my curiosity, I completed various MOOCs on Coursera in topics I was interested waiting to find my true passion. Thanks to a course on "Irrational Behavior" taught by Dan Ariely, I found my calling: Behavioral Economics was the field as it combined elements from all the areas I was interested in. I completed a second M.Sc. in "Statistics and Data Analysis" in Samos to sharpen my knowledge and I was ready! <a href="#footnote_1" id="footnote_ref_1">[1]</a>.</p>
 
 
 <p align="justify">Unfortunately I could not find a suitable program in Greece, but luckily I could find one abroad. Getting accepted for the graduate program in Tinbergen Institute was on the happiest moments in my academic life. I moved in Amsterdam in 2015 and continued my studies there. The graduate program offers a variety of courses for two years, after which students proceed to a PhD.</p>
@@ -37,5 +37,7 @@ permalink: /personal/road_to_phd
 
 <h2>Footnotes</h2>
 <ol>
-    <li id="footnote_1">The benefit of having free education in Greece cannot be overstated here. Even with working part-time and parental support, I would not have been to afford my studies if it wasn't for the complete absence of tuition fees.</li>
+    <li id="footnote_1">
+      The benefit of having free education in Greece cannot be overstated here. Even with working part-time and parental support, I would not have been to afford my studies if it wasn't for the complete absence of tuition fees. <a href="#footnote_ref_1">↩</a>
+    </li>
 </ol>
