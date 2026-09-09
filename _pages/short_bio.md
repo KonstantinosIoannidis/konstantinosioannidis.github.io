@@ -16,7 +16,7 @@ Education
 * <img src="/files/images/institutions/aegean.png" width="40" height="40"> 2015: M.Sc. in Statistics and Data Analysis, <a href="http://www.actuar.aegean.gr/index.php/en/">University of the Aegean</a>
 * <img src="/files/images/institutions/aegean.png" width="40" height="40"> 2013: M.Sc. in Mathematical Modelling in Physical Sciences and New Technologies, <a href="https://www.math.aegean.gr/index.php/en/">University of the Aegean</a>
 * <img src="/files/images/institutions/aegean.png" width="40" height="40"> 2013: B.Sc. in Statistics and Actuarial–Financial Mathematics, <a href="http://www.actuar.aegean.gr/index.php/en/"> University of the Aegean</a>
-* <img src="/files/images/institutions/thessaloniki.svg" width="40" height="40"> 2010: B.Sc. in Mathematics, <a href="https://math.auth.gr/en/" target="_blank">Aristotle University of Thessaloniki</a>
+* <img src="/files/images/institutions/thessaloniki.png" width="40" height="40"> 2010: B.Sc. in Mathematics, <a href="https://math.auth.gr/en/" target="_blank">Aristotle University of Thessaloniki</a>
 
 Academic appointments (primary)
 -----
