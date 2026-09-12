@@ -1,5 +1,5 @@
 ---
-title: "Loyola Behavioural Lab Seminar"
+title: "Loyola University Andalusia Behavioural Seminar"
 collection: talks
 category: "seminars"
 event_id: "2025_loyola"

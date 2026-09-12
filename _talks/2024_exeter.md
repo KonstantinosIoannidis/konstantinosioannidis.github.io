@@ -1,5 +1,5 @@
 ---
-title: "Behavioural and Experimental Economics Seminar"
+title: "University of Exeter Behavioural and Experimental Economics Seminar"
 collection: talks
 category: "seminars"
 event_id: "2024_exeter"
