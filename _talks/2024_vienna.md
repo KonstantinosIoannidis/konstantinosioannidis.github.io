@@ -1,7 +1,8 @@
 ---
-title: "WU Vienna Econonics Seminar"
+title: "WU Vienna Economics Seminar"
 collection: talks
 category: "seminars"
+event_id: "2024_vienna"
 research_id: "mig"
 type: "Complexity and general equilibrium"
 permalink: "/talks/2024_vienna"

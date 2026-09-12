@@ -2,6 +2,7 @@
 title: "Economic Science Association Global Meeting"
 collection: talks
 category: "conferences"
+event_id: "2023_esa_global"
 research_id: "whistleblowing"
 type: "Whistleblowing and competition"
 permalink: /talks/2023_esa_global

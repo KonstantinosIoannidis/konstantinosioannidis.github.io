@@ -39,25 +39,51 @@ permalink: /talkmap/
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
-  const talks = [
-      {% for talk in site.talks %}
-        {% assign loc = talk.location | downcase %}
-        {% if talk.latitude and talk.latitude != "" and talk.longitude and talk.longitude != "" and loc != "online" %}
+  const allTalks = [
+    {% for talk in site.talks %}
+      {% assign loc = talk.location | downcase %}
+      {% if talk.latitude and talk.latitude != "" and talk.longitude and talk.longitude != "" and loc != "online" %}
         {
+          eventId: {{ talk.event_id | jsonify }},
           title: {{ talk.title | jsonify }},
           location: {{ talk.location | jsonify }},
           country: {{ talk.country | jsonify }},
           latitude: {{ talk.latitude }},
           longitude: {{ talk.longitude }},
           date: {{ talk.date | date: "%Y" | jsonify }}
-        },
-        {% endif %}
-      {% endfor %}
-    ];
+        }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ];
 
+  /*
+   * Keep only the first record for each event_id.
+   * This prevents the same conference from appearing twice when
+   * two different projects were presented at the same event.
+   */
+  const seenEventIds = new Set();
+
+  const talks = allTalks.filter(function (talk) {
+
+    if (!talk.eventId) {
+      return true;
+    }
+
+    if (seenEventIds.has(talk.eventId)) {
+      return false;
+    }
+
+    seenEventIds.add(talk.eventId);
+    return true;
+  });
+
+  /*
+   * Group events by location and country.
+   * Events in the same city and country share one marker.
+   */
   const grouped = {};
 
-  talks.forEach(talk => {
+  talks.forEach(function (talk) {
 
     const key =
       (talk.location || "Unknown") +
@@ -98,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const bounds = [];
 
-  Object.values(grouped).forEach(place => {
+  Object.values(grouped).forEach(function (place) {
 
     bounds.push([
       place.latitude,
@@ -114,8 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     popup += '<ul class="talk-list">';
 
-    place.talks.forEach(talk => {
-
+    place.talks.forEach(function (talk) {
       popup +=
         '<li>' +
         talk.title +
@@ -130,8 +155,8 @@ document.addEventListener("DOMContentLoaded", function () {
       place.latitude,
       place.longitude
     ])
-    .addTo(map)
-    .bindPopup(popup);
+      .addTo(map)
+      .bindPopup(popup);
   });
 
   if (bounds.length > 0) {

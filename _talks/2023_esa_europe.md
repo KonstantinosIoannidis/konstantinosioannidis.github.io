@@ -2,6 +2,7 @@
 title: "Economic Science Association European Meeting"
 collection: talks
 category: "conferences"
+event_id: "2023_esa_europe"
 research_id: "anchoring_informativeness"
 type: "Anchoring on valuations and perceived informativeness"
 permalink: /talks/2023_esa_europe

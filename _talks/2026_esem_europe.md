@@ -2,6 +2,7 @@
 title: "77<sup>th</sup> Econometric Society European Meeting"
 collection: talks
 category: "conferences"
+event_id: "2026_esem_europe"
 research_id: "mig"
 type: "How computational complexity can restore general equilibrium in markets with indivisible goods"
 permalink: /talks/2026_es

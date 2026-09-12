@@ -2,6 +2,7 @@
 title: "2<sup>nd</sup> Annual Conference of UK-based Behavioural and Experimental Economists"
 collection: talks
 category: "conferences"
+event_id: "2025_bee_uk"
 research_id: "kme"
 type: "Markets or patents? Experiments on collective innovation and information aggregation"
 permalink: /talks/2025_bee

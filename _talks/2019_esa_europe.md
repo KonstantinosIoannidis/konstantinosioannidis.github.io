@@ -2,6 +2,7 @@
 title: "Economic Science Association European Meeting"
 collection: talks
 category: "conferences"
+event_id: "2019_esa_europe"
 research_id: "anchoring_double_auction"
 type: "Does anchoring get mitigated by market participation?"
 permalink: /talks/2019_esa

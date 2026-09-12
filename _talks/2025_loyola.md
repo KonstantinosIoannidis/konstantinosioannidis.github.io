@@ -2,6 +2,7 @@
 title: "Loyola Behavioural Lab Seminar"
 collection: talks
 category: "seminars"
+event_id: "2025_loyola"
 research_id: "pgg"
 type: "Public goog games with/without incentives"
 permalink: "/talks/2025_loyola"

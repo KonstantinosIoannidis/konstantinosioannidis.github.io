@@ -7,7 +7,7 @@ author_profile: true
 
 <p align="justify">
   From conference halls to university seminar rooms, my research journey has taken me to many places.
-  Explore the interactive <a href="/talkmap/">talk map</a> for a geographical overview of past presentations.
+  Explore the interactive <a href="/talkmap/">talk map</a> for a geographicalf past presentations.
 </p>
 
 {% assign categories = site.talk_category %}
@@ -18,15 +18,25 @@ author_profile: true
 
   {% if talks.size > 0 %}
 
-    <h2>{{ category[1].title }} ({{ talks.size }})</h2>
+    {% assign seen_events = "" | split: "" %}
+
+    <h2>{{ category[1].title }}</h2>
 
     <ul>
-    {% for post in talks %}
-      <li>
-        <i>{{ post.title | strip_html }}</i>
-        ({{ post.location | split: "," | first }}, {{ post.date | date: "%Y" }})
-      </li>
-    {% endfor %}
+      {% for post in talks %}
+
+        {% unless seen_events contains post.event_id %}
+
+          {% assign seen_events = seen_events | push: post.event_id %}
+
+          <li>
+            <i>{{ post.title }}</i>
+            ({{ post.location | split: "," | first }}, {{ post.date | date: "%Y" }})
+          </li>
+
+        {% endunless %}
+
+      {% endfor %}
     </ul>
 
   {% endif %}

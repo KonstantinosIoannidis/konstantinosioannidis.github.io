@@ -2,6 +2,7 @@
 title: "Economic Science Association European Meeting"
 collection: talks
 category: "conferences"
+event_id: "2022_esa_europe"
 research_id: "pgg"
 type: "Social preferences and image concerns in public good contributions"
 permalink: /talks/2022_esa
