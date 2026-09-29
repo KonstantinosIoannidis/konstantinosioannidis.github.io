@@ -1,5 +1,5 @@
 ---
-title: "What do donors value in flexible giving? Cause scope, allocation patterns, and charitable impact"
+title: "Creating or redirecting giving? Giving flexibility, cause scope, and targeted matching"
 authors: "Konstantinos Ioannidis, Eriko Yamakuma and Atiyeh Yeganloo"
 coauthors: "Eriko Yamakuma and Atiyeh Yeganloo"
 collection: research

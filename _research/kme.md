@@ -1,5 +1,5 @@
 ---
-title: "Economic oracles: How markets reveal optimal solutions to complex problems"
+title: "Asset pricing when averaging information is wrong"
 authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
 coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan"
 collection: research
