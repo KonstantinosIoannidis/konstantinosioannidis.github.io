@@ -10,6 +10,7 @@ permalink: /publications/2026_usenix
 date: 2026-03-31
 venue: 'USENIX Security Symposium'
 paperurl: '/files/publications/2026_usenix.pdf'
+# appendixurl: '/files/publications/2026_usenix.pdf'
 # citation: 'Marjanov, T., Tsuchiya, T., Ioannidis, K., Hughes, J., Christin, N., & Hutchings, A. (2026) Stayin Alive: How Global Stolen Data Markets Thrive on Telegram. <i>USENIX Security Symposium</i>. 1-12.'
 link_publication: "https://www.usenix.org/conference/usenixsecurity26/presentation/marjanov"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"

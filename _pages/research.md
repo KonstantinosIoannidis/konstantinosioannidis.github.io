@@ -26,9 +26,7 @@ author_profile: true
     <br>(with {{ post.coauthors }}){% endif %}
     <br>
     {{ post.summary }}
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl }}" target="_blank" class="btn">{{ site.data.ui-text[site.locale].pdf_link_label | default: "PDF" }}</a>
-    {% endif %}
+    {% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank" class="btn">PDF</a>{% endif %}
   </li>
   {% endfor %}
   </ul>
