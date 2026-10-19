@@ -10,11 +10,11 @@ permalink: /research/habits
 date: 2024-07-06
 # venue: 'Experimental Economics'
 paperurl: '/files/research/habits.pdf'
-stage: "Revising"
+stage: "Revising for new submission"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
-link_preregistration: "https://www.socialscienceregistry.org/trials/16899"
+link_preregistration: "https://www.socialscienceregistry.org/trials/6387"
 summary: "Studies whether communication strategies become habitual and persist even after the environment has changed, using a lab experiment with a sender-receiver game."
 abstract: "Standard economic theory predicts that the informativeness of strategic communication is determined solely by the incentive alignment between senders and receivers. However, experiments consistently find overcommunication. We propose that this deviation arises from communication habits formed in familiar environments carrying over to unfamiliar environments. A behavioural model yields sharp predictions: (i) habits from aligned environments generate overcommunication, while habits from conflicting environments generate undercommunication, and (ii) reliance on communication habits depends on the frequency of interacting in an unfamiliar environment. We test those predictions with a preregistered laboratory experiment (N=320). We analyse individual decisions to provide suggestive evidence on the mechanisms."
 keywords: "habits, strategic information transmission, communication, experiment"
