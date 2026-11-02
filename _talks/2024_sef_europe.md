@@ -2,7 +2,7 @@
 title: "14<sup>th</sup> Annual Society for Experimental Finance Conference"
 collection: talks
 category: "conferences"
-event_id: "2024_sef"
+event_id: "2024_sef_europe"
 research_id: "kme"
 type: "Markets spread knowledge to overcome computational complexity"
 permalink: /talks/2024_sef
