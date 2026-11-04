@@ -1,5 +1,5 @@
 ---
-title: "Asset pricing when averaging information is wrong"
+title: "Asset pricing when traders produce payoff through hard computational search"
 authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
 coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan"
 collection: research
@@ -17,7 +17,7 @@ funding: "Society for Experimental Finance ($4,000)"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
 # link_preregistration: "https://www.socialscienceregistry.org/trials/6387"
 summary: "Studies whether markets can incentivise individuals to collectively discover solutions to complex problems that would be difficult to solve in isolation."
-abstract: "Conventional wisdom suggests that a precondition for innovation is sufficient incentive that the private benefits of innovation will justify the costs incurred by the inventor. Typically, this incentive is established through the acquisition of patents, which allow inventors to monopolise intellectual property for monetary gain. However, this restricts the circulation of new ideas and slows the pace of innovation. With an experiment, we test here the capacity of markets to overcome this shortcoming by incentivising individuals to collectively find solutions to a complex task that mirrors the complexity of producing innovations in the real world."
+abstract: "We study asset markets in which traders generate the payoff themselves. Each trader privately searches for solutions to a computationally hard (NP-hard) problem, and the asset pays the value of the best solution anyone finds during trading. In standard asset pricing models, by contrast, the payoff is either exogenous or a future equilibrium price. Theory predicts that payoffs will fall short of the optimum but that prices will be efficient. In an experiment, payoffs exceed this prediction: in every market at least one participant finds the optimal solution, although fewer participants do so as instances get harder. Prices converge to the payoff, without the bubbles or mirages common in information-aggregation experiments."
 # keywords: "habits, strategic information transmission, communication, experiment"
 # jel_codes: "C92, D01, D83, D91"
 # presented: "2<sup>nd</sup> summer school on Cognitive Foundations of Decision-Making (Ghent, 2025), 2<sup>nd</sup> Annual Conference of the Network of the UK-Based Experimental and Behavioural Economists (Sheffield, 2025), 15<sup>th</sup> Society for Experimental Finance Conference (Maastricht, 2025), University of Vienna Behavioral/Experimental Seminar (Vienna, 2024), 14<sup>th</sup> Society for Experimental Finance Conference (Stavanger, 2024)"
