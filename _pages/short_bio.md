@@ -20,12 +20,13 @@ Education
 
 Academic appointments (primary)
 -----
-* <img src="/files/images/institutions/cambridge.png" width="40" height="40"> 2024-: Postdoctoral Researcher, Faculty of Economics, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>
-* <img src="/files/images/institutions/cambridge.png" width="40" height="40"> 2023-2024: Research Assistant, Faculty of Economics, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>
+* <img src="/files/images/institutions/cambridge.png" width="40" height="40"> 2023-: Postdoctoral Researcher, Faculty of Economics, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a>
+<!-- * <img src="/files/images/institutions/cambridge.png" width="40" height="40"> 2023-2024: Research Assistant, Faculty of Economics, <a href="https://www.econ.cam.ac.uk/" target="_blank">University of Cambridge</a> -->
 * <img src="/files/images/institutions/birmingham.png" width="40" height="40"> 2022-2023: Lab Manager, Department of Economics, <a href="https://www.birmingham.ac.uk/schools/business/departments/economics" target="_blank">University of Birmingham</a>
 
 Academic appointments (secondary)
 -----
+* <img src="/files/images/institutions/cambridge.png" width="40" height="40"> 2026-2027: Affiliated Lecturer, Department of Computer Science and Technology, <a href="https://www.cst.cam.ac.uk/" target="_blank">University of Cambridge</a>
 * <img src="/files/images/institutions/pittsburgh.png" width="40" height="40"> 2025: Visiting Researcher, Department of Economics, <a href="https://www.econ.pitt.edu/" target="_blank">University of Pittsburgh</a>  
 * <img src="/files/images/institutions/carnegie_mellon.png" width="40" height="40"> 2025: Visiting Researcher, Tepper School of Business, <a href="https://www.cmu.edu/tepper/" target="_blank">Carnegie Mellon University</a>
 * <img src="/files/images/institutions/queens.png" width="40" height="40"> 2024-2026: Rokos Postdoctoral Research Associate, <a href="https://www.queens.cam.ac.uk/" target="_blank">Queens' College Cambridge</a>
