@@ -11,72 +11,31 @@ author_profile: true
   Click on any course for information on the syllabus, learning objectives, and teaching evaluations.
 </p>
 
-{% assign categories = site.teaching_category %}
+{% assign all_courses = site.teaching | sort: "date" | reverse %}
+{% assign venues = all_courses | map: "venue" | uniq %}
 
-{% for category in categories %}
+{% for venue in venues %}
 
-  {% assign level_courses = site.teaching | where: "category", category[0] %}
+  {% assign venue_courses = all_courses | where: "venue", venue %}
 
-  {% if level_courses.size > 0 %}
+  <h2>{{ venue }}</h2>
 
-    <h2>{{ category[1].title }}</h2>
-
-    {% assign level_courses_sorted = level_courses | sort: "date" | reverse %}
-    {% assign venues = level_courses_sorted | map: "venue" | uniq %}
-
-    {% for venue in venues %}
-
-      {% assign venue_courses = level_courses | where: "venue", venue | sort: "date" | reverse %}
-
-      {% assign start_years = "" %}
-      {% assign end_years = "" %}
-
-      {% for post in venue_courses %}
-        {% if post.date_range %}
-          {% assign parts = post.date_range | replace: " ", "" | split: "-" %}
-          {% assign s_yr = parts[0] %}
-          {% if parts[1] %}
-            {% assign e_yr = parts[1] %}
-          {% else %}
-            {% assign e_yr = parts[0] %}
-          {% endif %}
-        {% else %}
-          {% assign s_yr = post.date | date: "%Y" %}
-          {% assign e_yr = s_yr %}
-        {% endif %}
-
-        {% if start_years == "" %}
-          {% assign start_years = s_yr %}
-          {% assign end_years = e_yr %}
-        {% else %}
-          {% assign start_years = start_years | append: "," | append: s_yr %}
-          {% assign end_years = end_years | append: "," | append: e_yr %}
-        {% endif %}
-      {% endfor %}
-
-      {% assign min_year = start_years | split: "," | sort | first %}
-      {% assign max_year = end_years | split: "," | sort | last %}
-
-      <div>
-        {{ venue }}
-        ({% if min_year == max_year %}{{ min_year }}{% else %}{{ min_year }}-{{ max_year }}{% endif %})
-      </div>
-
-      <ul style="margin-top: 0.2em; margin-bottom: 1em;">
-      {% for post in venue_courses %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title | strip_html }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-
-    {% endfor %}
-
-  {% endif %}
+  <ul style="margin-top: 0.2em; margin-bottom: 1em;">
+  {% for post in venue_courses %}
+    {% if post.category == "graduate" %}
+      {% assign level = "Postgraduate" %}
+    {% else %}
+      {% assign level = "Undergraduate" %}
+    {% endif %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title | strip_html }}</a>, {{ level }}
+    </li>
+  {% endfor %}
+  </ul>
 
 {% endfor %}
 
-<h2>(Biased selection of) student evaluation comments</h2>
+<h2>Selected student comments</h2>
 <ul>
   <li>
     "Honestly this was the best seminar I ever joined.
@@ -98,5 +57,3 @@ author_profile: true
     No matter the outcome, when this is all done, I'm buying you a beer."
   </li>
 </ul>
-
-

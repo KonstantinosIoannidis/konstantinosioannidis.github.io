@@ -1,7 +1,7 @@
 ---
 title: "Asset pricing when traders produce payoff through hard computational search"
-authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
-coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadan"
+authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadav"
+coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadav"
 collection: research
 category: progress
 research_id: "kme"

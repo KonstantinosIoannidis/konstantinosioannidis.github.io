@@ -1,7 +1,7 @@
 ---
 title: "How computational complexity can restore general equilibrium in markets with indivisible goods"
-authors: "Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadan"
-coauthors: "Peter Bossaerts, Robert Woods, Nitin Yadan"
+authors: "Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadav"
+coauthors: "Peter Bossaerts, Robert Woods, Nitin Yadav"
 collection: research
 category: working
 research_id: "mig"
