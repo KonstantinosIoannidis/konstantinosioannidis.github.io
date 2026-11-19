@@ -3,7 +3,7 @@ title: "Asset pricing when traders produce payoff through hard computational sea
 authors: "Hassan Andrabi, Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadav"
 coauthors: "Hassan Andrabi, Peter Bossaerts, Robert Woods, Nitin Yadav"
 collection: research
-category: progress
+category: working
 research_id: "kme"
 permalink: /research/kme
 # excerpt: 'This paper is about fixing template issue #693.'
