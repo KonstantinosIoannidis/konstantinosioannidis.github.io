@@ -9,7 +9,7 @@ permalink: /research/kme
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
 # venue: 'Experimental Economics'
-# paperurl: '/files/research/habits.pdf'
+paperurl: '/files/research/kme.pdf'
 stage: "Draft in preparation"
 funding: "Society for Experimental Finance ($4,000)"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
