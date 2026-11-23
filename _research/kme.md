@@ -15,7 +15,7 @@ funding: "Society for Experimental Finance ($4,000)"
 # citation: 'Ioannidis, K. (2023). Anchoring on valuations and perceived informativeness. <i>Journal of Behavioral and Experimental Economics</i>. 106(102060).'
 # link_publication: "https://doi.org/10.1016/j.socec.2023.102060"
 # link_data: "https://github.com/KonstantinosIoannidis/Anchoring_JBEE"
-# link_preregistration: "https://www.socialscienceregistry.org/trials/6387"
+link_preregistration: "https://osf.io/yhjm5"
 summary: "Studies whether markets can incentivise individuals to collectively discover solutions to complex problems that would be difficult to solve in isolation."
 abstract: "We study asset markets in which traders produce the payoff themselves. Each trader privately searches for solutions to a computationally hard problem, the 0–1 knapsack problem, and the asset pays the value of the best solution anyone finds during trading. Solutions are never disclosed, so prices are the only channel through which discoveries can spread, and no trader can verify that the optimum has been found. We ask whether the payoff reaches the optimum and whether prices converge to it. In 28 experimental markets, at least one participant always found the optimum. Prices converged to the resulting payoff: pooled across markets, the long-run price lies within 0.01% of the optimum, and in every market it is statistically distinct from the value of the second-best solution. Unlike earlier designs, the payoff rule does not require the market organiser to know the optimum, which suggests a way of using markets to reward discovery when the answer is unknown."
 keywords: "asset pricing, information aggregation, endogenous payoffs, computational search, experimental markets, knapsack problem"
