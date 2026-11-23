@@ -171,14 +171,69 @@ permalink: /personal/gaming
 </style>
 
 <script>
+  function setCarouselPosition(carousel, animate) {
+    const width = carousel.parentElement.clientWidth;
+
+    carousel.style.transition = animate ? "transform 0.5s ease" : "none";
+    carousel.style.transform = `translate3d(-${carousel.carouselIndex * width}px, 0, 0)`;
+  }
+
+  function initializeCarousel(carousel) {
+    const originalItems = carousel.querySelectorAll(".carousel-item");
+
+    if (originalItems.length <= 1) {
+      return;
+    }
+
+    const firstClone = originalItems[0].cloneNode(true);
+    const lastClone = originalItems[originalItems.length - 1].cloneNode(true);
+
+    firstClone.setAttribute("aria-hidden", "true");
+    lastClone.setAttribute("aria-hidden", "true");
+
+    carousel.insertBefore(lastClone, originalItems[0]);
+    carousel.appendChild(firstClone);
+
+    carousel.carouselIndex = 1;
+    carousel.carouselCount = originalItems.length;
+    carousel.carouselMoving = false;
+
+    setCarouselPosition(carousel, false);
+
+    carousel.addEventListener("transitionend", function () {
+      if (carousel.carouselIndex === 0) {
+        carousel.carouselIndex = carousel.carouselCount;
+        setCarouselPosition(carousel, false);
+      } else if (carousel.carouselIndex === carousel.carouselCount + 1) {
+        carousel.carouselIndex = 1;
+        setCarouselPosition(carousel, false);
+      }
+
+      carousel.carouselMoving = false;
+    });
+  }
+
   function moveCarousel(carouselId, direction) {
     const carousel = document.getElementById(carouselId);
-    const items = carousel.querySelectorAll('.carousel-item');
-    const totalItems = items.length;
-    let currentIndex = parseInt(carousel.dataset.currentIndex) || 0;
 
-    currentIndex = (currentIndex + direction + totalItems) % totalItems;
-    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-    carousel.dataset.currentIndex = currentIndex;
+    if (!carousel || carousel.carouselMoving) {
+      return;
+    }
+
+    carousel.carouselMoving = true;
+    carousel.carouselIndex += direction;
+    setCarouselPosition(carousel, true);
   }
+
+  document.querySelectorAll(".carousel").forEach(function (carousel) {
+    initializeCarousel(carousel);
+  });
+
+  window.addEventListener("resize", function () {
+    document.querySelectorAll(".carousel").forEach(function (carousel) {
+      if (typeof carousel.carouselIndex !== "undefined") {
+        setCarouselPosition(carousel, false);
+      }
+    });
+  });
 </script>
