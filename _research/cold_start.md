@@ -4,8 +4,8 @@ authors: "Konstantinos Ioannidis, Tina Marjanov, Alice Hutchings"
 coauthors: "Tina Marjanov, Alice Hutchings"
 collection: research
 category: working
-research_id: "cold_start_joc"
-permalink: /research/2027_joc
+research_id: "cold_start"
+permalink: /research/cold_start
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2024-03-31
 # venue: 'Workshop on the Economics of Information Security'

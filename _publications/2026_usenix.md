@@ -4,7 +4,7 @@ authors: "Tina Marjanov, Taro Tsuchiya, Konstantinos Ioannidis, Jack Hughes, Nic
 coauthors: "Tina Marjanov, Taro Tsuchiya, Jack Hughes, Nicolas Christin, Alice Hutchings"
 collection: publications
 category: conferences
-research_id: "stolen_data"
+research_id: "2026_usenix"
 permalink: /publications/2026_usenix
 # excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2026-03-31

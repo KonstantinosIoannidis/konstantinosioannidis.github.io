@@ -4,8 +4,8 @@ authors: "Peter Bossaerts, Konstantinos Ioannidis, Robert Woods, Nitin Yadav"
 coauthors: "Peter Bossaerts, Robert Woods, Nitin Yadav"
 collection: research
 category: working
-research_id: "mig"
-permalink: /research/mig
+research_id: "complexity_ge"
+permalink: /research/complexity_ge
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-07-06
 # venue: 'Experimental Economics'

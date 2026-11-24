@@ -4,6 +4,7 @@ authors: "Michael Schaerer, Christilene du Plessis, ... , Gender Audits Forecast
 coauthors: "Gender Audits Forecasting Collaboration"
 collection: publications
 category: consortium
+research_id: "2023_obhdp"
 permalink: /publications/2023_obhdp
 # excerpt: 'This paper is about fixing template issue #693.'
 date: 2023-11-10
